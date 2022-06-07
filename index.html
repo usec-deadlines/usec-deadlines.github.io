@@ -27,7 +27,8 @@
           </div>
           <div class="col-xs-12">
             {{ site.description }}
-            <p>To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
+            <p>To add/update a <em>usable security/privacy</em> conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
+              Please send all other updates to the <a href="https://github.com/sec-deadlines/sec-deadlines.github.io">upstream repo</a>.</p>
             <p>Last update: {{ site.time | date: "%-d %B %Y" }}
             <div>
                 <p>
@@ -35,7 +36,8 @@
                     <a href="{{site.baseurl}}/ical/deadlines-all.ical">all</a>; 
                     <a href="{{site.baseurl}}/ical/deadlines-sec.ical">security</a>; 
                     <a href="{{site.baseurl}}/ical/deadlines-priv.ical">privacy</a>; 
-                    <a href="{{site.baseurl}}/ical/deadlines-crypto.ical">crypto</a>
+                    <a href="{{site.baseurl}}/ical/deadlines-crypto.ical">crypto</a>;
+                    <a href="{{site.baseurl}}/ical/deadlines-usec.ical">usable security</a>
                 </p>
             </div>
           </div>
@@ -102,7 +104,10 @@
         {% endfor %}
       </div>
       <footer>
-        Maintained by <a href="https://clementfung.github.io/">Clement Fung</a>. Created by <a href="//twitter.com/{{ site.twitter_username }}">Bogdan Kulynych</a>.
+        This is a fork of
+        <a href="https://sec-deadlines.github.io/">sec-deadlines.github.io</a>,
+        which is maintained by <a href="https://clementfung.github.io/">Clement Fung</a>
+        and was created by <a href="https://twitter.com/hiddenmarkov">Bogdan Kulynych</a>.
       </footer>
     </div>
 
