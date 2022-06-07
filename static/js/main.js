@@ -105,14 +105,18 @@ $(function() {
   // Set checkboxes
   var conf_type_data = {{ site.data.types | jsonify }};
   var all_tags = [];
+  var default_tags = []
   var toggle_status = {};
   for (var i = 0; i < conf_type_data.length; i++) {
     all_tags[i] = conf_type_data[i]['tag'];
     toggle_status[all_tags[i]] = false;
+    if(conf_type_data[i]['default']) {
+      default_tags.push(conf_type_data[i]['tag']);
+    }
   }
   var tags = store.get('{{ site.domain }}');
   if (tags === undefined) {
-    tags = all_tags;
+    tags = default_tags;
   }
   for (var i = 0; i < tags.length; i++) {
     $('#' + tags[i] + '-checkbox').prop('checked', true);

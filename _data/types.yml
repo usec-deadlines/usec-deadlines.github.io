@@ -1,12 +1,16 @@
 ---
 - name: Security
   tag: SEC
+  default: false
 - name: Privacy
   tag: PRIV
+  default: false
 - name: Crypto
   tag: CRYPTO
+  default: false
 - name: Conference
   tag: CONF
+  default: false
 - name: Workshop
   tag: SHOP
   
