@@ -54,8 +54,16 @@ $(function() {
       function make_update_countdown_fn(confDeadline) {
         return function(event) {
           diff = moment() - confDeadline
-          if (diff <= 0) {
-             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          if (diff <= -1000*60*60*24*7*12) {
+             $(this).html(event.strftime('%-m months'));
+          } else if (diff <= -1000*60*60*24*7) {
+             $(this).html(event.strftime('%-D days'));
+          } else if (diff <= -1000*60*60*24) {
+             $(this).html(event.strftime('%-D days %Hh'));
+          } else if (diff <= -1000*60*60) {
+             $(this).html(event.strftime('%-D days %Hh %Mm'));
+          } else if (diff < 0) {
+             $(this).html(event.strftime('%-D days %Hh %Mm %Ss'));
           } else {
             $(this).html(confDeadline.fromNow());
           }
