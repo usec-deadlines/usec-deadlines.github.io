@@ -13,4 +13,8 @@
   default: false
 - name: Workshop
   tag: SHOP
+  default: false
+- name: Usable security
+  tag: USEC
+  default: true
   
