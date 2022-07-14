@@ -1,6 +1,6 @@
 ---
-
-# Security and Privacy
+ # Security and Privacy
+ 
 - name: S&P (Oakland)
   year: 2023
   date: "May 22 – 26 2023"
@@ -47,9 +47,9 @@
   year: 2023
   link: https://asiaccs2023.org/
   deadline:
-    - "2022-07-28 23:59"
-    - "2022-11-02 23:59"
-  date: "June 5 - June 9"
+    - "2022-09-01 23:59"
+    - "2022-12-15 23:59"
+  date: "July 10-14"
   place: Melbourne, Australia
   tags: [SEC, PRIV, CONF]
 
@@ -138,16 +138,6 @@
   place: Grenada
   tags: [SEC, PRIV, CRYPTO, CONF]
 
-- name: NordSec
-  description: Nordic Conference on Secure IT Systems
-  year: 2021
-  link: https://events.tuni.fi/nordsec2021/
-  deadline: ["2021-08-23 23:59"]
-  timezone: Europe/Helsinki
-  date: November 29-30
-  place: Virtual
-  tags: [SEC, PRIV, CRYPTO, CONF]
-
 - name: SSR
   description: Security Standardisation Research Conference
   year: 2022
@@ -175,6 +165,33 @@
   timezone: Europe/London
   date: November 7-9
   place: Birmingham, UK
+  tags: [SEC, PRIV, CONF]
+
+- name: ICICS
+  year: 2022
+  date: "Sept 05 – 08"
+  description: The 24th International Conference on Information and Communications Security
+  link: https://icics2022.cyber.kent.ac.uk/index.php
+  deadline: ["2022-03-21 23:59"]
+  place: University of Kent, Canterbury, UK
+  tags: [SEC, PRIV, CONF]
+
+- name: SaTML
+  year: 2023
+  date: "February 08 - 10"
+  description: IEEE Conference on Secure and Trustworthy Machine Learning
+  link: https://satml.org/
+  deadline: ["2022-08-22 23:59"]
+  place: Location to be revealed
+  tags: [SEC, PRIV, CONF]
+
+- name: NordSec
+  year: 2022
+  description: The 27th Nordic Conference on Secure IT Systems
+  link: https://nordsec2022.ru.is/
+  deadline: ["2022-08-22 23:59"]
+  date: "November 30 - December 2"
+  place: Reykjavik, Iceland
   tags: [SEC, PRIV, CONF]
 
 # Privacy
