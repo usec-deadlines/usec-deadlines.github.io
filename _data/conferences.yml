@@ -21,6 +21,15 @@
   deadline: ["2022-03-21 23:59"]
   place: University of Kent, Canterbury, UK
   tags: [SEC, PRIV, CONF]
+  
+- name: FPS
+  year: 2022
+  date: "Dec 12–14"
+  description: 15th International Symposium on Foundations & Practice of Security
+  link: https://www.fps-2022.com
+  deadline: ["2022-10-07 23:59"]
+  place: Ottawa, Ontario, Canada
+  tags: [SEC, PRIV, CRYPTO, CONF]
 
 - name: CCS
   description: ACM Conference on Computer and Communications Security
@@ -103,11 +112,13 @@
 
 - name: WiSec
   description: ACM Conference on Security and Privacy in Wireless and Mobile Networks
-  year: 2022
-  link: https://wisec2022.cs.utsa.edu/
-  deadline: ["2022-02-12 23:59"]
-  date: May 16 - May 19
-  place: San Antonio, Texas, USA
+  year: 2023
+  link: https://wisec2023.surrey.ac.uk
+  deadline: 
+    - "2022-11-18 23:59"
+    - "2023-02-17 23:59"
+  date: May 29 - June 1
+  place: Guildford, Surrey, United Kingdom
   tags: [SEC, PRIV, CONF]
 
 - name: SOUPS
@@ -246,7 +257,7 @@
   description: European Cryptology Conference
   year: 2023
   link: https://eurocrypt.iacr.org/2023/
-  deadline: ["2022-10-06 11:59"]
+  deadline: ["2022-10-06 23:59"]
   date: April 23-27
   place: Lyon, France
   tags: [CRYPTO, CONF]
