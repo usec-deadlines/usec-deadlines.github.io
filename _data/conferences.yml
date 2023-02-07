@@ -613,18 +613,6 @@
 
 - name: CSCW
   description: ACM Conference on Computer-Supported Cooperative Work and Social Computing
-  year: 2022
-  link: https://cscw.acm.org/2022/
-  deadline:
-    - "2021-07-15 23:59"
-    - "2022-01-15 23:59"
-  comment: Major/minor revisions due November 1, 2021 and April 25, 2022
-  date: November 8-22
-  place: Virtual
-  tags: [USEC, CONF]
-
-- name: CSCW
-  description: ACM Conference on Computer-Supported Cooperative Work and Social Computing
   year: 2023
   link: https://cscw.acm.org/2023/
   deadline:
@@ -632,21 +620,6 @@
     - "2023-01-15 23:59"
   date: November 8-22
   place: Minneapolis, MN, USA
-  tags: [USEC, CONF]
-
-- name: IMWUT / UbiComp
-  description: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
-  year: 2022
-  link: https://dl.acm.org/journal/imwut
-  deadline:
-    - "2021-11-15 23:59"
-    - "2022-02-15 23:59"
-    - "2022-05-15 23:59"
-    - "2022-08-15 23:59"
-  timezone: America/New_York
-  comment: Rolling deadline every quarter
-  date: September 11 — 15
-  place: Atlanta, GA, USA and Cambridge, UK
   tags: [USEC, CONF]
 
 - name: IMWUT / UbiComp
