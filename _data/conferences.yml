@@ -55,7 +55,7 @@
     - "2023-06-28 23:59"
   date: "February 26 - March 1"
   place: San Diego, CA, USA
-  tags: [SEC, PRIV, CONF, USEC]
+  tags: [SEC, PRIV, CONF]
 
 - name: ESORICS
   description: European Symposium on Research in Computer Security
