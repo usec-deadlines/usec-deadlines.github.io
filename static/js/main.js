@@ -119,8 +119,8 @@ $(function() {
     tags = default_tags;
   }
   for (var i = 0; i < tags.length; i++) {
-    $('#' + tags[i] + '-checkbox').prop('checked', false);
-    toggle_status[tags[i]] = false;
+    $('#' + tags[i] + '-checkbox').prop('checked', true);
+    toggle_status[tags[i]] = true;
   }
   store.set('{{ site.domain }}', tags);
 
