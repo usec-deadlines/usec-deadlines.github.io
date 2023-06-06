@@ -63,7 +63,7 @@
   link: https://www.esorics2023.org/
   deadline: 
     - "2023-01-22 23:59"
-    - "2023-05-28 23:59"
+    - "2023-06-04 23:59"
   date: September 25-29
   place: The Hague, Netherlands
   tags: [SEC, PRIV, CONF]
@@ -81,24 +81,24 @@
   
 - name: CSF
   description: IEEE Computer Security Foundations Symposium
-  year: 2023
-  link: https://www.ieee-security.org/TC/CSF2023/
+  year: 2024
+  link: https://www.ieee-security.org/TC/CSF2024/
   deadline:
-    - "2022-05-13 23:59"
-    - "2022-09-30 23:59"
-    - "2023-02-03 23:59"
-  date: July 10 - 14
-  place: Dubrovnik, Croatia
+    - "2023-05-15 23:59"
+    - "2023-09-30 23:59"
+    - "2024-02-03 23:59"
+  date: July 08 - 12
+  place: Enschede, The Netherlands
   tags: [SEC, PRIV, CONF]
     
 - name: CANS
   description: International Conference on Cryptology and Network Security
-  year: 2022
-  link: https://www.cans2022.com/
-  deadline: ["2022-05-29 23:59"]
+  year: 2023
+  link: https://www.augusta.edu/ccs/conferences/cans2023/
+  deadline: ["2023-07-1 23:59"]
   timezone: Etc/UTC
-  date: November 13-16
-  place: Abu Dhabi, UAE
+  date: October 31-November 2
+  place: Atlanta, United States
   tags: [SEC, CRYPTO, CONF]
 
 - name: WiSec
@@ -210,16 +210,25 @@
   year: 2023
   link: https://isc23.cs.rug.nl
   deadline: ["2023-07-27 23:59"]
-  date: "November 29 - December 1"
+  date: "November 15 - 17"
   place: Groningen, Netherlands
+  tags: [SEC, PRIV, CONF]
+  
+- name: TrustCom
+  description: International Conference on Trust, Security and Privacy in Computing and Communications
+  year: 2023
+  link: https://hpcn.exeter.ac.uk/trustcom2023/
+  deadline: ["2023-07-01 23:59"]
+  date: "November 1 - 3"
+  place: Exeter, UK
   tags: [SEC, PRIV, CONF]
 
 # Privacy
 
 - name: PETS
   description: Privacy Enhancing Technologies Symposium
-  year: 2023
-  link: https://www.petsymposium.org/cfp23.php
+  year: 2024
+  link: https://www.petsymposium.org/cfp24.php
   deadline:
     - "%Y-05-31 23:59"
     - "%Y-08-31 23:59"
@@ -227,8 +236,8 @@
     - "%y-02-28 23:59"
   comment: Rolling deadline every quarter
   timezone: Etc/GMT+11
-  date: July 10-14
-  place: Lausanne, Switzerland
+  date: July 15-20
+  place: Bristol, UK
   tags: [PRIV, CONF, USEC]
 
 - name: LPW
@@ -272,12 +281,12 @@
 
 - name: Asiacrypt
   description: International Conference on the Theory and Application of Cryptology and Information Security
-  year: 2022
-  link: https://asiacrypt.iacr.org/2022/
-  deadline: ["2022-05-27 11:59"]
+  year: 2023
+  link: https://asiacrypt.iacr.org/2023/
+  deadline: ["2023-05-26 11:59"]
   timezone: Etc/UTC
-  date: December 5-9
-  place: Taipei, Taiwan
+  date: December 4-8
+  place: Guangzhou, China
   tags: [CRYPTO, CONF]
   
 - name: AFT
@@ -339,11 +348,25 @@
   year: 2023
   description: The 8th International Conference on Cryptology and Information Security in Latin America
   link: https://www.espe.edu.ec/latincrypt/
-  deadline: ["2023-06-02 23:59"]
-  comment: Abstract registration May 27th AoE.
+  deadline: ["2023-06-09 23:59"]
+  comment: Abstract registration June 2nd AoE (Firm).
   date:  October 2-6
   place: Quito, Ecuador
   tags: [CRYPTO, PRIV, CONF]
+
+- name: FSE
+  description: IACR Transactions on Symmetric Cryptology
+  year: 2024
+  link: https://tosc.iacr.org/
+  deadline:
+    - "%Y-03-01 23:59"
+    - "%Y-06-01 23:59"
+    - "%Y-09-01 23:59"
+    - "%Y-11-23 23:59"
+  comment: Rolling deadline every quarter
+  date: March 25-29
+  place: Leuven, Belgium
+  tags: [CRYPTO, CONF]
 
 - name: CHES
   description: IACR Transactions on Cryptographic Hardware and Embedded Systems
@@ -526,7 +549,7 @@
   description: New Security Paradigms Workshop
   year: 2023
   link: https://www.nspw.org/2023/cfp
-  deadline: ["2023-05-19 23:59"]
+  deadline: ["2023-05-26 23:59"]
   date: September 18 - 21
   place: Segovia, Spain
   tags: [SEC, PRIV, SHOP]
@@ -699,6 +722,34 @@
   comment: Co-located with ISSTA 2023
   tags: [SEC, SHOP]
 
+- name: SECAI
+  description: Workshop on Security and Artificial Intelligance
+  year: 2023
+  link: https://sites.google.com/view/secai2023
+  deadline: ["2023-07-09 23:59"]
+  comment: Co-located with ESORICS 2023
+  date: September 25-29
+  place: The Hague, The Netherlands
+  tags: [SEC, PRIV, SHOP]
+  
+- name: ASHES
+  description: Workshop on Attacks and Solutions in Hardware Security 
+  year: 2023
+  link: http://ashesworkshop.org/home
+  deadline:
+    - "2023-06-25 23:59"
+  date: November 30
+  place: Copenhagen, Denmark
+  tags: [SEC, SHOP]
+  
+- name: SCORED
+  description: ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses
+  year: 2023
+  date: "November 30"
+  link: https://scored.dev/
+  deadline: ["2023-06-30 23:59"]
+  place: Copenhagen, Denmark
+  tags: [SEC, SHOP]
 
 
 # Usable Security and HCI
