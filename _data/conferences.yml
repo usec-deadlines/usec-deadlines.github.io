@@ -766,13 +766,13 @@
 
 - name: CSCW
   description: ACM Conference on Computer-Supported Cooperative Work and Social Computing
-  year: 2023
-  link: https://cscw.acm.org/2023/
+  year: 2024
+  link: https://cscw.acm.org/2024/
   deadline:
-    - "2022-07-15 23:59"
-    - "2023-01-15 23:59"
-  date: November 8-22
-  place: Minneapolis, MN, USA
+    - "2023-07-18 23:59"
+    - "2024-01-16 23:59"
+  date: "November 9-13"
+  place: San José, Costa Rica
   tags: [USEC, CONF]
 
 - name: IMWUT / UbiComp
