@@ -1,6 +1,7 @@
 ---
    
 # Security and Privacy
+  
 - name: S&P (Oakland)
   year: 2025
   date: "TBD"
@@ -34,24 +35,23 @@
 
 - name: USENIX Security
   description: USENIX Security Symposium
-  year: 2024
-  link: https://www.usenix.org/conference/usenixsecurity24
+  year: 2025
+  link: https://www.usenix.org/conference/usenixsecurity25
   deadline:
-    - "2023-06-06 23:59"
-    - "2023-10-17 23:59"
-    - "2024-02-08 23:59"
-  date: "August 14-16"
-  place: Philadelphia, PA, USA
+    - "2024-09-04 23:59"
+    - "2025-01-22 23:59"
+  date: "August 13-15"
+  place: Seattle, WA, USA
   tags: [SEC, PRIV, CONF, USEC]
 
 - name: NDSS
   description: ISOC Network and Distributed System Security Symposium
-  year: 2024
-  link: https://www.ndss-symposium.org/ndss2024/submissions/call-for-papers/
+  year: 2025
+  link: https://www.ndss-symposium.org/ndss2025/submisions/call-for-papers/
   deadline:
-    - "2023-04-19 23:59"
-    - "2023-06-28 23:59"
-  date: "February 26 - March 1"
+    - "2024-04-17 23:59"
+    - "2024-07-10 23:59"
+  date: "February 23-28"
   place: San Diego, CA, USA
   tags: [SEC, PRIV, CONF]
 
@@ -88,17 +88,15 @@
   date: July 08 - 12
   place: Enschede, The Netherlands
   tags: [SEC, PRIV, CONF]
-    
+
 - name: CANS
   description: International Conference on Cryptology and Network Security
-  year: 2023
-  link: https://www.augusta.edu/ccs/conferences/cans2023/
-  deadline: ["2023-07-08 12:00"]
-  timezone: Etc/UTC
-  date: October 31-November 2
-  place: Atlanta, United States
+  year: 2024
+  link: https://2024.cansconference.org/
+  deadline: ["2024-04-14 23:59"]
+  date: September 24-27
+  place: Cambridge, UK
   tags: [SEC, CRYPTO, CONF]
-  comment: Extended deadline
 
 - name: WiSec
   description: ACM Conference on Security and Privacy in Wireless and Mobile Networks 
@@ -162,11 +160,38 @@
 - name: FPS
   year: 2023
   date: "Dec 11–13"
-  description: The 16th Foundations and Practice of Security Symposium
+  description: Foundations and Practice of Security Symposium
   link: https://www.fps-2023.com
   deadline: ["2023-09-15 23:59"]
   place: Bordeaux, France
   tags: [SEC, PRIV, CRYPTO, CONF]
+
+- name: IMF
+  year: 2024
+  date: "September 17–18"
+  description: International Conference on IT Security Incident Management and IT Forensics
+  link: https://www.imf-conference.org/
+  deadline: ["2024-04-21 23:59"]
+  place: Saarbrucken, Germany
+  tags: [SEC, CONF]
+
+- name: SciSec
+  description: International Conference on Science of Cyber Security
+  year: 2024
+  link: https://scisec.org/
+  deadline: ["2024-04-07 23:59"]
+  date: August 14-16
+  place: Copenhagen, DK
+  tags: [SEC, CONF]
+
+- name: EDId
+  description: 1st International Workshop on Emerging Digital Identitiesy
+  year: 2024
+  link: https://www.ares-conference.eu/edid
+  deadline: ["2024-05-08 23:59"]
+  date: July 30- August 02
+  place: Vienna, AT
+  tags: [SEC, PRIV, CRYPTO, SHOP]
 
 # Privacy
 
@@ -341,21 +366,20 @@
 
 - name: RAID
   description: International Symposium on Research in Attacks, Intrusions and Defenses
-  year: 2023
-  link: https://raid2023.org
-  deadline: ["2023-03-29 23:59"]
-  date: October 16-18
-  place: Hong Kong, China
+  year: 2024
+  link: https://raid2024.github.io/
+  deadline: ["2024-04-09 23:59"]
+  date: September 30 - October 2
+  place: Padova, Italy
   tags: [SEC, CONF]
 
 - name: ACSAC
   description: Annual Computer Security Applications Conference
-  year: 2023
-  link: https://www.acsac.org/2023/
-  deadline: ["2023-05-26 23:59"]
-  comment: Abstract deadline on May 22nd
-  date: Dec 4-8
-  place: Austin, TX, USA
+  year: 2024
+  link: https://www.acsac.org/2024/
+  deadline: ["2024-05-28 23:59"]
+  date: Dec 9-13
+  place: Waikiki, Hawaii, USA
   tags: [SEC, CONF]
 
 - name: DSN
@@ -468,7 +492,7 @@
   description: Workshop on Automotive Cyber-Security
   year: 2024
   link: https://acsw.unimore.it/
-  deadline: ["2024-03-01 23:59"]
+  deadline: ["2024-03-15 23:59"]
   date: July 8
   place: Vienna, Austria
   tags: [SEC, PRIV, SHOP]
@@ -574,7 +598,7 @@
   description: ACM SIGEnergy Workshop on Cybersecurity and Privacy of Energy Systems
   year: 2024
   link: https://energysp.github.io/
-  deadline: ["2024-03-17 23:59"]
+  deadline: ["2024-03-25 23:59"]
   comment: In conjunction with ACM eEnergy
   date: June 4
   place: Singapore, Singapore
@@ -584,7 +608,7 @@
   description: 3rd Workshop on Rethinking Malware Analysis
   year: 2024
   link: https://worma.gitlab.io/2024/
-  deadline: ["2024-03-14 23:59"]
+  deadline: ["2024-03-26 23:59"]
   date: July 8-12
   comment: Co-located with IEEE Euro S&P 2024
   place: Vienna, Austria
@@ -594,7 +618,7 @@
   description: Workshop on System Software for Trusted Execution
   year: 2024
   link: https://systex24.github.io/
-  deadline: ["2024-03-14 23:59"]
+  deadline: ["2024-03-26 23:59"]
   date: July 8
   comment: Co-located with IEEE Euro S&P 2024
   place: Vienna, Austria
@@ -663,12 +687,12 @@
 
 - name: PAVeTrust
   description: Program Analysis and Verification on Trusted Platforms
-  year: 2023
-  link: https://www.acsac.org/2023/workshops/pavetrust/
-  comment: Collocated with ACSAC
-  deadline: ["2023-09-29 23:59"]
-  date: December 5
-  place: Austin, TX, USA
+  year: 2024
+  link: https://pavetrust.github.io/
+  comment: Collocated with FM
+  deadline: ["2024-07-05 23:59"]
+  date: September 9
+  place: Milan, Italy
   tags: [SEC, PRIV, SHOP]
 
 - name: VehicleSec
@@ -715,7 +739,7 @@
   description: Security of Software/Hardware Interfaces
   year: 2024
   link: https://silm-workshop.github.io/
-  deadline: ["2024-03-15 23:59"]
+  deadline: ["2024-03-29 23:59"]
   comment: Co-located with EURO S&P 2024
   date: July 12
   place: Vienna, Austria
@@ -743,8 +767,8 @@
   description: Malicious Software and Hardware in Internet of Things
   year: 2024
   link: http://mal-iot2024.alari.ch/
-  deadline: ["2024-02-21 23:59"]
-  comment: Co-located with ACM Computing Frontiers 2024
+  deadline: ["2024-03-04 23:59"]
+  comment: Mandatory abstract registration Feb 28. Co-located with ACM Computing Frontiers 2024.
   date: May 7
   place: Ischia, Italy
   tags: [SEC, PRIV, CRYPTO, SHOP]
@@ -754,7 +778,7 @@
   date: "July 12"
   description: DevSecOps Research and Opportunities
   link: https://spritz.math.unipd.it/events/2024/devSecOpsRO/
-  deadline: ["2024-03-15 23:59"]
+  deadline: ["2024-03-29 23:59"]
   place: Vienna, Austria
   tags: [SEC, SHOP]
 
@@ -873,6 +897,36 @@
   date: "July 2"
   place: Singapore
   tags: [SEC, PRIV, CONF]
+
+- name: WACCO
+  description: Workshop on Attackers and Cyber-Crime Operations
+  year: 2024
+  link: https://wacco-workshop.org/
+  deadline: ["2024-03-15 23:59"]
+  date: July 8
+  place: Vienna, Austria
+  tags: [SEC, PRIV]
+
+- name: IWSEC 
+  description: International Workshop on Security
+  year: 2024
+  link: https://www.iwsec.org/2024/
+  deadline: ["2024-04-16 23:59"]
+  date: September 17-19
+  place: Kyoto, JP
+  tags: [SEC, PRIV, CRYPTO, SHOP]
+
+- name: CSET
+  description: Cyber Security Experimentation and Test Workshop
+  year: 2024
+  link: https://cset24.isi.edu/
+  comment: Co-located with USENIX Security
+  deadline: ["2024-05-17 20:00"]
+  timezone: America/New_York
+  date: August 13
+  place: Philadelphia, PA, USA
+  tags: [SEC, SHOP]
+
 
 
 # Usable Security and HCI
