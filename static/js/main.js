@@ -58,12 +58,14 @@ $(function() {
              $(this).html(event.strftime('%-m months'));
           } else if (diff <= -1000*60*60*24*7) {
              $(this).html(event.strftime('%-D days'));
-          } else if (diff <= -1000*60*60*24) {
+          } else if (diff <= -1000*60*60*24*2) {
              $(this).html(event.strftime('%-D days %Hh'));
+          } else if (diff <= -1000*60*60*24) {
+             $(this).html(event.strftime('%-D day %Hh'));
           } else if (diff <= -1000*60*60) {
-             $(this).html(event.strftime('%-D days %Hh %Mm'));
+             $(this).html(event.strftime('%Hh %Mm'));
           } else if (diff < 0) {
-             $(this).html(event.strftime('%-D days %Hh %Mm %Ss'));
+             $(this).html(event.strftime('%Hh %Mm %Ss'));
           } else {
             $(this).html(confDeadline.fromNow());
           }
