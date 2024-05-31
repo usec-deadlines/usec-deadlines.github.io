@@ -126,7 +126,7 @@
   deadline: ["2024-05-31 23:59"]
   date: September 30-October 1
   place: Karlstad, Sweden
-  tags: [SEC, PRIV, CONF]
+  tags: [SEC, PRIV, CONF, USEC]
 
 - name: FC
   description: Financial Cryptography and Data Security
