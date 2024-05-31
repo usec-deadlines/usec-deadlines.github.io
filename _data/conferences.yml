@@ -1,15 +1,15 @@
 ---
    
 # Security and Privacy
-  
+
 - name: S&P (Oakland)
   year: 2025
-  date: "TBD"
+  date: May 12-15
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2025
   deadline:
     - "2024-06-06 23:59"
-    - "2024-12-14 23:59"
+    - "2024-11-14 23:59"
   place: San Francisco, California, USA
   tags: [SEC, PRIV, CONF, USEC]
   
@@ -21,7 +21,7 @@
   deadline: ["2022-03-21 23:59"]
   place: University of Kent, Canterbury, UK
   tags: [SEC, PRIV, CONF]
-
+  
 - name: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2024
@@ -68,32 +68,32 @@
 
 - name: ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
-  year: 2024
-  link: https://asiaccs2024.sutd.edu.sg/
+  year: 2025
+  link: https://asiaccs2025.hust.edu.vn/
   deadline:
-    - "2023-08-21 23:59"
-    - "2023-12-07 23:59"
-  date: "July 1-5"
-  place: Singapore
+    - "2024-09-20 23:59"
+    - "2025-01-15 23:59"
+  date: "August 25-29"
+  place: Hanoi, Vietnam
   tags: [SEC, PRIV, CONF]
   
 - name: CSF
   description: IEEE Computer Security Foundations Symposium
-  year: 2024
-  link: https://www.ieee-security.org/TC/CSF2024/
+  year: 2025
+  link: https://www.ieee-security.org/TC/CSF2025/
   deadline:
-    - "2023-05-15 23:59"
-    - "2023-09-30 23:59"
-    - "2024-02-03 23:59"
-  date: July 08 - 12
-  place: Enschede, The Netherlands
+    - "2024-05-28 23:59"
+    - "2024-10-01 23:59"
+    - "2025-02-04 23:59"
+  date: July
+  place: Santa Cruz, CA, USA
   tags: [SEC, PRIV, CONF]
 
 - name: CANS
   description: International Conference on Cryptology and Network Security
   year: 2024
   link: https://2024.cansconference.org/
-  deadline: ["2024-04-14 23:59"]
+  deadline: ["2024-04-24 23:59"]
   date: September 24-27
   place: Cambridge, UK
   tags: [SEC, CRYPTO, CONF]
@@ -119,6 +119,15 @@
   place: Philadelphia, PA, USA
   tags: [SEC, PRIV, CONF, USEC]
 
+- name: EuroUSEC
+  description: European Symposium on Usable Security
+  year: 2024
+  link: https://eurousec24.kau.se/
+  deadline: ["2024-05-31 23:59"]
+  date: September 30-October 1
+  place: Karlstad, Sweden
+  tags: [SEC, PRIV, CONF]
+
 - name: FC
   description: Financial Cryptography and Data Security
   year: 2024
@@ -140,13 +149,12 @@
 
 - name: ISC
   description: Information Security Conference
-  year: 2023
-  link: https://isc23.cs.rug.nl
-  deadline: ["2023-08-03 23:59"]
-  date: "November 15 - 17"
-  place: Groningen, Netherlands
+  year: 2024
+  link: https://isc24.cs.gmu.edu/
+  deadline: ["2024-06-06 23:59"]
+  date: "October 23-25"
+  place: Arlington, VA, USA
   tags: [SEC, PRIV, CONF]
-  comment: Extended deadline
   
 - name: TrustCom
   description: International Conference on Trust, Security and Privacy in Computing and Communications
@@ -179,13 +187,13 @@
   description: International Conference on Science of Cyber Security
   year: 2024
   link: https://scisec.org/
-  deadline: ["2024-04-07 23:59"]
+  deadline: ["2024-05-15 23:59"]
   date: August 14-16
   place: Copenhagen, DK
   tags: [SEC, CONF]
 
 - name: EDId
-  description: 1st International Workshop on Emerging Digital Identitiesy
+  description: 1st International Workshop on Emerging Digital Identities
   year: 2024
   link: https://www.ares-conference.eu/edid
   deadline: ["2024-05-08 23:59"]
@@ -193,12 +201,21 @@
   place: Vienna, AT
   tags: [SEC, PRIV, CRYPTO, SHOP]
 
+- name: ICDIS
+  description: International Conference on Data Intelligence and Security
+  year: 2024
+  link: https://www.icdis.org/
+  deadline: ["2024-06-28 23:59"]
+  date: November 25-28
+  place: Leipzig, Germany
+  tags: [SEC, PRIV, CONF]
+
 # Privacy
 
 - name: PETS
   description: Privacy Enhancing Technologies Symposium
-  year: 2024
-  link: https://www.petsymposium.org/cfp24.php
+  year: 2025
+  link: https://www.petsymposium.org/cfp25.php
   deadline:
     - "%Y-05-31 23:59"
     - "%Y-08-31 23:59"
@@ -206,8 +223,8 @@
     - "%y-02-28 23:59"
   comment: Rolling deadline every quarter
   timezone: Etc/GMT+11
-  date: July 15-20
-  place: Bristol, UK
+  date: July 2025 (TBC)
+  place: Washington, DC
   tags: [PRIV, CONF, USEC]
 
 - name: LPW
@@ -219,6 +236,25 @@
   date: July 7
   place: Delft, The Netherlands
   tags: [SEC, PRIV, CRYPTO, SHOP]
+
+- name: PLAS
+  year: 2024
+  description: Workshop on Programming Languages and Analysis for Security
+  comment: Co-located with CCS 2024
+  link: https://plas24.github.io/
+  deadline: ["2024-06-20 23:59"]
+  date: October 14
+  place: Salt Lake City, USA
+  tags: [SEC, PRIV, SHOP]
+
+- name: ACIS (PrivaCI)
+  year: 2024
+  date: September 27-28
+  description: The Annual Symposium on Applications of Contextual Integrity
+  link: https://privaci.info/symposium/2024/cfp.html
+  deadline: ["2024-06-24 23:59"]  
+  place: Rutgers University, USA
+  tags: [PRIV, CONF]
 
 # Crypto
 
@@ -234,11 +270,11 @@
 
 - name: SAC
   description: Selected Areas in Cryptography
-  year: 2023
-  link: https://sac-workshop.github.io/sac-2023/
-  deadline: ["2023-05-16 11:59"]
-  date: August 16-18
-  place: Fredricton, NB, Canada
+  year: 2024
+  link: https://sacworkshop.org/SAC24/
+  deadline: ["2024-05-07 11:59"]
+  date: August 26-27
+  place: Montreal, QC, Canada
   tags: [CRYPTO, CONF]
 
 - name: Crypto
@@ -261,30 +297,32 @@
 
 - name: Asiacrypt
   description: International Conference on the Theory and Application of Cryptology and Information Security
-  year: 2023
-  link: https://asiacrypt.iacr.org/2023/
-  deadline: ["2023-05-26 11:59"]
+  year: 2024
+  link: https://asiacrypt.iacr.org/2024/
+  deadline: ["2024-05-26 11:59"]
   timezone: Etc/UTC
-  date: December 4-8
-  place: Guangzhou, China
+  date: December 9-13
+  place: Kolkata, India
   tags: [CRYPTO, CONF]
   
 - name: AFT
   description: ACM Conference on Advances in Financial Technologies
-  year: 2023
-  link: https://aftconf.github.io/aft23/
-  deadline: ["2023-06-15 23:59"]
-  date: "September 23–26"
-  place: Princeton, NJ, USA
+  year: 2024
+  link: https://aftconf.github.io/aft24/
+  deadline: ["2024-05-22 23:59"]
+  date: "September 23–25"
+  comment: Abstract registration May 15th AoE.
+  place: Vienna, Austria
   tags: [SEC, PRIV, CRYPTO, CONF]
 
 - name: TCC
   description: Theory of Cryptography Conference
-  year: 2023
-  link: https://tcc.iacr.org/2023/
-  deadline: ["2023-06-01 23:59"]
-  date: "November 29-December 2"
-  place: Taipei, Taiwan
+  year: 2024
+  link: https://tcc.iacr.org/2024/
+  timezone: "Etc/GMT-2"
+  deadline: ["2024-05-20 20:00"]
+  date: "December 2-6"
+  place: Milan, Italy
   tags: [CRYPTO, CONF]
 
 - name: PKC
@@ -336,16 +374,16 @@
 
 - name: FSE
   description: IACR Transactions on Symmetric Cryptology
-  year: 2024
+  year: 2025
   link: https://tosc.iacr.org/
   deadline:
     - "%Y-03-01 12:00"
     - "%Y-06-01 12:00"
     - "%Y-09-01 12:00"
-    - "%Y-11-23 12:00"
+    - "%Y-11-22 12:00"
   comment: Rolling deadline every quarter
-  date: March 25-29
-  place: Leuven, Belgium
+  date: TBD
+  place: TBD
   tags: [CRYPTO, CONF]
 
 - name: CHES
@@ -368,7 +406,7 @@
   description: International Symposium on Research in Attacks, Intrusions and Defenses
   year: 2024
   link: https://raid2024.github.io/
-  deadline: ["2024-04-09 23:59"]
+  deadline: ["2024-04-15 23:59"]
   date: September 30 - October 2
   place: Padova, Italy
   tags: [SEC, CONF]
@@ -394,13 +432,13 @@
 
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
-  year: 2024
-  link: https://wp.nyu.edu/acns2024/
+  year: 2025
+  link: https://fordaysec.de/en/event/acns-2025
   deadline: 
-    - "2023-07-20 23:59"
-    - "2023-10-20 23:59"
-  date: March 5-8
-  place: Abu Dhabi, UAE
+    - "2024-09-04 23:59"
+    - "2025-01-13 23:59"
+  date: June 23-26
+  place: Munich, Germany
   tags: [CRYPTO, SEC, CONF]
 
 - name: DIMVA
@@ -444,12 +482,11 @@
 
 - name: DBSec
   description: Conference on Data and Applications Security and Privacy
-  year: 2023
-  link: http://www.dbsec2023.unimol.it
-  deadline: ["2023-04-07 23:59"]
-  comment: Abstracts due March 31
-  date: July 19 - 21
-  place: Sophia Antipolis, France
+  year: 2024
+  link: https://www.dbsec2024.unimol.it/
+  deadline: ["2024-04-19 23:59"]
+  date: July 15 - 17
+  place: San Jose, CA, USA
   tags: [CRYPTO, SEC, CONF, PRIV]
 
 - name: The Web Conference
@@ -511,20 +548,11 @@
   year: 2024
   date: "May 27 - 28"
   description: ESA Security for Space Systems Conference
-  timezone: Etc/UTC-2
+  timezone: Etc/GMT-2
   deadline: ["2024-02-08 23:59"]
   link: https://atpi.eventsair.com/24a06---3s2024/
   place: ESTEC, Noordwijk, Netherlands
   tags: [SEC, CONF]
-  
-- name: SSR
-  description: Security Standardisation Research Conference
-  year: 2023
-  link: https://ssresearch2023.github.io/
-  deadline: ["2023-01-05 23:59"]
-  date: "April 22-23, 2023"
-  place: Lyon, France
-  tags: [SEC, PRIV, CRYPTO, CONF]
 
 - name: SEED
   description: IEEE International Symposium on Secure and Private Execution Environment Design
@@ -536,12 +564,12 @@
   tags: [SEC, PRIV, CONF]
 
 - name: ICICS
-  year: 2023
-  date: November 18–20
-  description: 25th International Conference on Information and Communications Security
-  link: https://icics23.nankai.edu.cn
-  deadline: ["2023-03-30 23:59"]
-  place: Tianjin, China
+  year: 2024
+  date: August 26–28
+  description: International Conference on Information and Communications Security
+  link: http://icics2024.aegean.gr/
+  deadline: ["2024-05-03 23:59"]
+  place: Mytilene, Greece
   tags: [SEC, PRIV, CONF]
 
 - name: SaTML
@@ -563,12 +591,12 @@
   tags: [SEC, PRIV, CONF]
 
 - name: SecDev
-  year: 2023
+  year: 2024
   description: IEEE Secure Development Conference
-  link: https://secdev.ieee.org/2023/home/
-  deadline: ["2023-06-02 23:59"]
-  date: "October 18-20"
-  place: Atlanta, GA, USA
+  link: https://secdev.ieee.org/2024/home
+  deadline: ["2024-05-14 23:59"]
+  date: "October 7-10"
+  place: Pittsburgh, PA, USA
   tags: [SEC, PRIV, CONF]
 
 - name: HOST
@@ -594,6 +622,26 @@
 
 # Workshops
 
+- name: CPSIoTSec
+  description: The Joint Workshop on CPS & IoT Security and Privacy
+  year: 2024
+  link: https://cpsiotsec2024.github.io/
+  deadline: ["2024-06-25 23:59"]
+  comment: In conjunction with ACM CCS 2024
+  date: October 18
+  place: Salt Lake City, UT, USA
+  tags: [SEC, PRIV, SHOP]
+  
+- name: AISec
+  description: Workshop on Artificial Intelligence and Security
+  year: 2024
+  link: https://aisec.cc
+  deadline: ["2024-06-21 23:59"]
+  date: October 14-18, 2024
+  comment: Co-located with ACM CCS 2024
+  place: Salt Lake City, UT, USA
+  tags: [SEC, PRIV, SHOP]
+
 - name: EnergySP
   description: ACM SIGEnergy Workshop on Cybersecurity and Privacy of Energy Systems
   year: 2024
@@ -605,7 +653,7 @@
   tags: [SEC, SHOP, PRIV]
 
 - name: WoRMA
-  description: 3rd Workshop on Rethinking Malware Analysis
+  description: Workshop on Rethinking Malware Analysis
   year: 2024
   link: https://worma.gitlab.io/2024/
   deadline: ["2024-03-26 23:59"]
@@ -744,15 +792,6 @@
   date: July 12
   place: Vienna, Austria
   tags: [SEC, SHOP]
-
-- name: CECC
-  description: Central European Conference on Cryptology
-  year: 2023
-  link: https://secsys.lit-systems.jku.at/cecc2023/
-  deadline: ["2023-03-15 23:59"]
-  date: July 3-6
-  place: Linz, Austria
-  tags: [SEC, CRYPTO, SHOP]
   
 - name: SecMT
   year: 2023
@@ -805,12 +844,12 @@
 
 - name: SECAI
   description: Workshop on Security and Artificial Intelligance
-  year: 2023
-  link: https://sites.google.com/view/secai2023
-  deadline: ["2023-07-16 23:59"]
-  comment: Co-located with ESORICS 2023
-  date: September 25-29
-  place: The Hague, The Netherlands
+  year: 2024
+  link: https://sites.google.com/view/secai2024
+  deadline: ["2024-06-19 23:59"]
+  comment: Co-located with ESORICS 2024
+  date: September 16-20
+  place: Bydgoszcz, Poland
   tags: [SEC, PRIV, SHOP]
   
 - name: ASHES
@@ -908,10 +947,11 @@
   tags: [SEC, PRIV]
 
 - name: IWSEC 
-  description: International Workshop on Security
+  description: The 19th International Workshop on Security
   year: 2024
   link: https://www.iwsec.org/2024/
-  deadline: ["2024-04-16 23:59"]
+  deadline: ["2024-04-28 23:59"]
+  timezone: Etc/UTC
   date: September 17-19
   place: Kyoto, JP
   tags: [SEC, PRIV, CRYPTO, SHOP]
@@ -926,6 +966,27 @@
   date: August 13
   place: Philadelphia, PA, USA
   tags: [SEC, SHOP]
+
+- name: QSNS
+  year: 2024
+  description: Workshop on Quantum-Secure Networks and Systems
+  comment: Co-located with IEEE ISCC 2024
+  link: https://qubip.eu/qsns2024/
+  deadline: ["2024-05-05 23:59"]
+  timezone: Etc/UTC
+  place: Paris, France
+  date: "June 26"
+  tags: [SEC, PRIV, CRYPTO, SHOP]
+
+- name: CheckMATE
+  description: Research on offensive and defensive techniques in the context of Man At The End (MATE) attacks
+  year: 2024
+  link: https://checkmate-workshop.github.io/
+  deadline: ["2024-06-20 23:59"]
+  comment: Co-located with ACM CCS 2024
+  date: October 18
+  place: Salt Lake City, USA
+  tags: [SEC, PRIV, CRYPTO, SHOP]
 
 
 
