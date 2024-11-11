@@ -8,6 +8,8 @@
 - name: Crypto
   tag: CRYPTO
   default: false
+- name: Top 4
+  tag: TOP4
 - name: Conference
   tag: CONF
   default: false
