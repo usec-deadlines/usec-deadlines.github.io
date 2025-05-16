@@ -1320,3 +1320,12 @@
   place: Espoo, Finland
   tags: [USEC, CONF]
 
+- name: HAIPS
+  description: Workshop on Human-Centered AI Privacy and Security
+  year: 2025
+  link: https://haips.com
+  deadline: ["2025-06-20 23:59"]
+  comment: Co-located with ACM CCS 2025
+  date: October 17
+  place: Taipei, Taiwan
+  tags: [SEC, PRIV, USEC, SHOP]
