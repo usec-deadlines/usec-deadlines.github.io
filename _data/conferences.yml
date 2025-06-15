@@ -1353,8 +1353,8 @@
   description: ACM CHI Conference on Human Factors in Computing Systems
   year: 2026
   link: https://chi2026.acm.org/
-  deadline: ["TBA"]
-  comment: Title and abstract deadline TBA
+  deadline: ["2025-09-11 23:59"]
+  comment: Title and abstract deadline on September 4
   date: "April 13-17"
   place: Barcelona, Spain
   tags: [USEC, CONF]
