@@ -14,14 +14,14 @@
 
 - name: CCS
   description: ACM Conference on Computer and Communications Security
-  year: 2025
-  link: https://www.sigsac.org/ccs/CCS2025
+  year: 2026
+  link: https://www.sigsac.org/ccs/CCS2026
   deadline:
-    - "2025-01-09 23:59"
-    - "2025-04-14 23:59"
+    - "2026-01-14 23:59"
+    - "2026-04-29 23:59"
   comment: Abstract registration required (1 week before deadline AoE).
-  date: October 13-17
-  place: Taipei, Taiwan
+  date: November 15-19
+  place: The Hague, The Netherlands
   tags: [SEC, PRIV, CONF, TOP4, USEC]
 
 - name: USENIX Security
@@ -50,13 +50,13 @@
 
 - name: ESORICS
   description: European Symposium on Research in Computer Security
-  year: 2025
-  link: https://esorics2025.sciencesconf.org/
+  year: 2026
+  link: https://sites.google.com/di.uniroma1.it/esorics2026/
   deadline:
-    - "2025-01-10 23:59"
-    - "2025-04-29 23:59"
-  date: September 22-26
-  place: Toulouse, France
+    - "2026-01-09 23:59"
+    - "2026-04-21 23:59"
+  date: "September 21-25 (TBD)"
+  place: Rome, Italy
   tags: [SEC, PRIV, CONF]
 
 - name: ASIACCS
@@ -262,6 +262,16 @@
   place: Maribor, Slovenia
   tags: [SEC, SHOP]
 
+- name: ACISP
+  description: Australasian Conference on Information Security and Privacy
+  year: 2026
+  link: https://acisp.org/
+  deadline:
+    - "2025-11-27 23:59"
+    - "2026-02-26 23:59"
+  date: July 6-9
+  place: Perth, Australia
+  tags: [SEC, PRIV, CONF]
 
 - name: ITASEC
   description: Italian Conference on Cybersecurity
@@ -309,6 +319,24 @@
 
 # Crypto
 
+- name: Crypto
+  description: International Cryptology Conference
+  year: 2026
+  link: https://crypto.iacr.org/2026/
+  deadline: ["2026-02-12 23:59"]
+  date: August 17-20
+  place: Santa Barbara, CA, USA
+  tags: [CRYPTO, CONF, TOP4]
+
+- name: Eurocrypt
+  description: European Cryptology Conference
+  year: 2026
+  link: https://eurocrypt.iacr.org/2026/
+  deadline: ["2025-10-02 23:59"]
+  date: May 10-14
+  place: Rome, Italy
+  tags: [CRYPTO, CONF, TOP4]
+
 - name: Inscrypt
   year: 2025
   description: International Conference on Information Security and Cryptology
@@ -323,29 +351,11 @@
 
 - name: SAC
   description: Selected Areas in Cryptography
-  year: 2025
-  link: https://sacworkshop.org/SAC25/
-  deadline: ["2025-01-27 23:59", "2025-05-07 23:59"]
-  date: August 13-15
-  place: Toronto, ON, Canada
-  tags: [CRYPTO, CONF]
-
-- name: Crypto
-  description: International Cryptology Conference
-  year: 2025
-  link: https://crypto.iacr.org/2025/
-  deadline: ["2025-02-13 11:00"]
-  date: August 17-21
-  place: Santa Barbara, CA, USA
-  tags: [CRYPTO, CONF]
-
-- name: Eurocrypt
-  description: European Cryptology Conference
   year: 2026
-  link: https://eurocrypt.iacr.org/2026/
-  deadline: ["2025-10-02 23:59"]
-  date: May 10-14
-  place: Rome, Italy
+  link: https://sacworkshop.org/SAC26/
+  deadline: ["2026-02-02 23:59", "2026-05-11 23:59"]
+  date: August 26-28
+  place: Ottawa, ON, Canada
   tags: [CRYPTO, CONF]
 
 - name: Asiacrypt
@@ -405,13 +415,13 @@
   place: Porto, Portugal
   tags: [SEC, CRYPTO, CONF]
 
-- name: AFRICACRYPT
+- name: AfricaCrypt
   description: International Conference on Cryptography Africa
-  year: 2025
-  link: https://africacrypt2025.sciencesconf.org/
-  deadline: ["2025-03-01 23:59"]
-  date: July 21-23
-  place: Rabat, Morocco
+  year: 2026
+  link: https://www.africacrypt2026.tn/
+  deadline: ["2026-03-01 23:59"]
+  date: July 08-10
+  place: Hammamet, Tunisia
   tags: [CRYPTO, CONF]
 
 # Don't delete Latincrypt since it is often once every few years
@@ -479,7 +489,7 @@
   description: ACM/SIGAPP Symposium On Applied Computing
   year: 2026
   link: https://www.sigapp.org/sac/sac2026/
-  deadline: ["2025-9-26 23:59"]
+  deadline: ["2025-10-17 23:59"]
   date: March 23-27
   place: Thessaloniki, Greece
   tags: [SEC, CONF]
@@ -547,11 +557,12 @@
 
 - name: ARES
   description: International Conference on Availability, Reliability and Security
-  year: 2025
-  link: https://2025.ares-conference.eu/
-  deadline: ["2025-03-11 23:59"]
-  date: August 10-13
-  place: Ghent, Belgium
+  year: 2026
+  link: https://www.ares-conference.eu/
+  deadline: ["2026-03-09 23:59"]
+  note: "Abstract registration deadline March 2, 2026."
+  date: August 24–27
+  place: Linköping, Sweden
   tags: [SEC, PRIV, CONF]
 
 - name: CODASPY
@@ -617,9 +628,9 @@
   year: 2025
   comment: Co-Located with IEEE European Symposium on Security and Privacy
   link: https://acsw.unimore.it/
-  deadline: ["2025-02-19 23:59"]
-  date: June 30
-  place: Venice, Italy
+  deadline: ["2026-3-12 23:59"]
+  date: July 10
+  place: Lisbon, Portugal
   tags: [SEC, PRIV, SHOP]
 
 - name: OSVS
@@ -658,6 +669,18 @@
   deadline: ["2025-05-31 23:59"]
   date: October 10-12
   place: Yokohama, Japan
+  tags: [SEC, PRIV, CONF]
+
+- name: ACM IMC
+  year: 2026
+  description: ACM Internet Measurement Conference
+  link: https://conferences.sigcomm.org/imc/2026/
+  deadline:
+    - "2025-11-20 23:59"
+    - "2026-04-29 23:59"
+  comment: Abstract registration required (1 week before deadline AoE).
+  date: November 3-6
+  place: Karlsruhe, Germany
   tags: [SEC, PRIV, CONF]
 
 # Others, less frequently updated
@@ -776,12 +799,14 @@
 
 - name: CIMSS
   description: International Workshop on Critical Infrastructure and Manufacturing System Security
-  year: 2025
-  link: https://cimssworkshop.github.io/
-  deadline: ["2025-03-23 23:59"]
-  comment: In conjunction with ACNS 2025
-  date: June 24
-  place: Munich, Germany
+  year: 2026
+  link: https://cimss2026.github.io/
+  deadline:
+    - "2026-01-24 23:59"
+    - "2026-03-22 23:59"
+  comment: In conjunction with ACNS
+  date: June 22-25
+  place: Stony Brook University, NY, USA
   tags: [SEC, SHOP]
 
 - name: SCI
@@ -940,7 +965,7 @@
   link: https://spacesec.info/
   comment: Co-located with NDSS Symposium
   deadline:
-    - "2025-11-09 23:59"
+    - "2025-11-16 23:59"
   date: February 23
   place: San Diego, California, USA
   tags: [SEC, PRIV, CRYPTO, SHOP]
@@ -956,14 +981,71 @@
   place: San Diego, California, USA
   tags: [SEC, PRIV, SHOP]
 
+- name: SDIoTSec
+  description: Workshop on Security and Privacy in Standardized IoT
+  year: 2026
+  link: https://sdiotsec.github.io/
+  comment: Co-located with NDSS Symposium
+  deadline:
+    - "2025-12-10 23:59"
+  date: February 23
+  place: San Diego, California, USA
+  tags: [SEC, PRIV, SHOP]
+
+- name: WOSOC
+  description: Workshop on SOC Operations and Construction
+  year: 2026
+  link: https://www.ndss-symposium.org/ndss2026/submissions/cfp-wosoc/
+  comment: Co-located with NDSS Symposium
+  deadline:
+    - "2025-12-22 23:59"
+  date: February 23
+  place: San Diego, California, USA
+  tags: [SEC, SHOP]
+
+- name: LAST-X
+  description: Workshop on LLM Assisted Security and Trust Exploration
+  year: 2026
+  link: https://www.ndss-symposium.org/ndss2026/submissions/cfp-last-x/
+  comment: Co-located with NDSS Symposium
+  deadline:
+    - "2025-12-10 23:59"
+  date: February 27
+  place: San Diego, California, USA
+  tags: [SEC, SHOP]
+
+- name: USEC
+  description: Symposium on Usable Security and Privacy
+  year: 2026
+  link: https://www.ndss-symposium.org/ndss2026/submissions/cfp-usec/
+  comment: Co-located with NDSS Symposium
+  deadline:
+    - "2025-12-05 23:59"
+  date: February 27
+  place: San Diego, California, USA
+  tags: [SEC, PRIV, CONF]
+
+- name: PRISM
+  description: Workshop on Attack Provenance, Reasoning, and Investigation for Security in the Monitored Environment
+  year: 2026
+  link: https://www.ndss-symposium.org/ndss2026/submissions/cfp-prism/
+  comment: Co-located with NDSS Symposium
+  deadline:
+    - "2025-12-15 23:59"
+  date: February 23
+  place: San Diego, California, USA
+  tags: [SEC, PRIV, CONF]
+
 - name: WOOT
   description: USENIX WOOT Conference on Offensive Technologies
-  year: 2025
-  link: https://www.usenix.org/conference/woot25/call-for-papers
-  comment: Co-located with USENIX Security; up-and-coming track deadline is Mar 4
-  deadline: ["2025-03-11 23:59"]
-  date: August 11-12
-  place: Seattle, WA, USA
+  year: 2026
+  link: https://www.usenix.org/conference/woot26/call-for-papers
+  comment: Co-located with USENIX Security; up-and-coming track deadline is Mar 3 (cycle-2)
+  deadline: 
+    - "2025-12-12 23:59"
+    - "2026-03-03 23:59"
+  date: August 10–11
+  place: Baltimore, MD, USA
   tags: [SEC, PRIV, CRYPTO, CONF]
 
 - name: SafeThings
@@ -1079,14 +1161,23 @@
 
 - name: CPSS
   description: ACM Cyber-Physical System Security Workshop
-  year: 2025
-  link: http://jianying.space/cpss/CPSS2025/
-  comment: Co-located with ACM AsiaCCS 2025
+  year: 2026
+  link: https://cpss26.github.io/
+  comment: Co-located with ACM AsiaCCS
   deadline:
-    - "2025-01-10 23:59"
-    - "2025-03-15 23:59"
-  date: "August 26"
-  place: Hanoi, Vietnam
+    - "2026-01-24 23:59"
+  date: June 2
+  place: Bangalore, India
+  tags: [SEC, PRIV, SHOP]
+
+- name: FL
+  description: International Workshop on Secure and Efficient Federated Learning
+  year: 2026
+  link: https://federated-learning.org/fl-asiaccs-2026/
+  comment: Co-located with ACM AsiaCCS
+  deadline: ["2026-02-13 23:59"]
+  date: "June 2"
+  place: Bangalore, India
   tags: [SEC, PRIV, SHOP]
 
 - name: WACCO
@@ -1199,11 +1290,11 @@
 
 - name: FutureG
   description: Workshop on Security and Privacy of Next-Generation Networks
-  year: 2025
-  link: https://www.ndss-symposium.org/ndss2025/co-located-events/futureg/
-  deadline: ["2025-01-10 23:59"]
-  comment: Co-located with NDSS Symposium 2025
-  date: February 24
+  year: 2026
+  link: https://www.ndss-symposium.org/ndss2026/submissions/cfp-futureg/
+  deadline: ["2026-01-06 23:59"]
+  comment: Co-located with NDSS Symposium
+  date: February 23
   place: San Diego, California, USA
   tags: [SEC, PRIV, SHOP]
 
@@ -1238,12 +1329,12 @@
 
 - name: SeRIM
   description: International Workshop on Security and Risk in Identity Management
-  year: 2025
+  year: 2026
   comment: Co-Located with IEEE European Symposium on Security and Privacy (EuroS&P).
-  link: https://st.fbk.eu/events/SeRIM2025/
-  deadline: ["2025-03-10 23:59"]
-  date: July 4
-  place: Venice, Italy
+  link: https://st.fbk.eu/events/SeRIM2026/
+  deadline: ["2026-03-01 23:59"]
+  date: July 10
+  place: Lisbon, Portugal
   tags: [SEC, PRIV, SHOP]
 
 - name: Crypto Valley Conference
@@ -1267,12 +1358,12 @@
 
 - name: APKC
   description: ACM ASIA Public-Key Cryptography Workshop
-  year: 2025
-  link: https://iseclab.ec.t.kanazawa-u.ac.jp/en/APKC2025.html
-  comment: Co-located with ACM AsiaCCS 2025
-  deadline: ["2025-02-17 23:59"]
-  date: August 26
-  place: Hanoi, Vietnam
+  year: 2026
+  link: https://iseclab.ec.t.kanazawa-u.ac.jp/en/APKC2026.html
+  comment: Co-located with ACM AsiaCCS 2026
+  deadline: ["2026-01-20 23:59"]
+  date: June 2 
+  place: Bangalore, India
   tags: [SEC, CRYPTO, SHOP]
 
 - name: MIST
@@ -1382,10 +1473,21 @@
   description: EAI International Conference on Ad Hoc Networks
   year: 2025
   link: https://adhocnets.eai-conferences.org/2025/
-  deadline: ["2025-09-14 23:59"]
+  deadline: ["2025-10-20 23:59"]
   date: December 4-5
   place: Istanbul, Turkey
   tags: [SEC, CONF]
+
+- name: EuroSec
+  description: European Workshop on Systems Security
+  year: 2026
+  link: https://eurosec-workshop.github.io/
+  deadline: ["2026-02-03 23:59"]
+  comment: Co-located with ACM EuroSys 2026
+  date: April 27
+  place: Edinburgh, UK
+  tags: [SEC, SHOP]
+
 
 # Usable Security and HCI
 
