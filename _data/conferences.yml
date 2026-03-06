@@ -88,11 +88,11 @@
 
 - name: CANS
   description: International Conference on Cryptology and Network Security
-  year: 2025
-  link: https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html
-  deadline: ["2025-04-17 23:59"]
-  date: November 17-20
-  place: Osaka, Japan
+  year: 2026
+  link: https://uow-ic2.github.io/cans2026/index.html
+  deadline: ["2026-06-10 23:59"]
+  date: November 23-25
+  place: Wollongong, Australia
   tags: [SEC, CRYPTO, CONF]
 
 - name: WiSec
@@ -239,13 +239,13 @@
   tags: [SEC, PRIV, SHOP]
 
 - name: SAFE-ML
-  description: International Workshop on Secure, Accountable, and Verifiable Machine Learning
-  year: 2025
-  link: https://conf.researchr.org/home/icst-2025/safe-ml-2025
+  description: 2nd International Workshop on Secure, Accountable, and Verifiable Machine Learning
+  year: 2026
+  link: https://conf.researchr.org/home/icst-2026/safe-ml-2026
   comment: Co-located with ICST
-  deadline: ["2025-01-03 23:59"]
-  date: March 31 - April 4
-  place: Naples, Italy
+  deadline: ["2026-02-27 23:59"]
+  date: May 18 - 22
+  place: Daejeon, South Korea
   tags: [SEC, PRIV, SHOP]
 
 - name: IFIP SEC
@@ -321,6 +321,27 @@
   place: Urbana-Champaign, USA
   tags: [PRIV, CONF, USEC]
 
+- name: PST
+  description: Annual International Conference on Privacy, Security, and Trust
+  year: 2026
+  link: https://pstnet.ca/
+  dblp: https://dblp.org/db/conf/pst/index.html
+  deadline: ["2026-04-10 23:59"]
+  comment: Co-located with SAC 2026.
+  date: August 26-28
+  place: Ottawa, Canada
+  tags: [SEC, PRIV, CONF]
+  
+- name: IFIPSC
+  description: IFIP Summer School on Privacy and Identity Management
+  year: 2026
+  link: https://ifip-summerschool.org/
+  comment: Abstract submission. Once accepted, full papers due July 30. 
+  deadline: ["2026-04-30 23:59"]
+  date: August 10-14
+  place: Leuven, Belgium
+  tags: [PRIV, SHOP]
+
 # Crypto
 
 - name: Crypto
@@ -328,6 +349,7 @@
   year: 2026
   link: https://crypto.iacr.org/2026/
   deadline: ["2026-02-12 23:59"]
+  timezone: Etc/GMT+8
   date: August 17-20
   place: Santa Barbara, CA, USA
   tags: [CRYPTO, CONF, TOP4]
@@ -464,7 +486,7 @@
     - "%y-04-15 23:59"
   comment: Rolling deadline every quarter
   date: October 11-15
-  place: TBD, Türkiye
+  place: Antalya, Türkiye
   tags: [CRYPTO, CONF]
 
 - name: LightSEC
@@ -489,6 +511,15 @@
 
 # Networks and systems, applications
 
+- name: RAID
+  description: International Symposium on Research in Attacks, Intrusions and Defenses
+  year: 2026
+  link: https://raid2026.org
+  deadline: ["2026-04-16 23:59"]
+  date: October 11-14
+  place: Lancaster, UK
+  tags: [SEC, CONF]
+
 - name: ACM SAC
   description: ACM/SIGAPP Symposium On Applied Computing
   year: 2026
@@ -496,15 +527,6 @@
   deadline: ["2025-10-17 23:59"]
   date: March 23-27
   place: Thessaloniki, Greece
-  tags: [SEC, CONF]
-
-- name: RAID
-  description: International Symposium on Research in Attacks, Intrusions and Defenses
-  year: 2025
-  link: https://raid2025.github.io
-  deadline: ["2025-04-24 23:59"]
-  date: October 19-22
-  place: Gold Coast, Australia
   tags: [SEC, CONF]
 
 - name: ACSAC
@@ -532,7 +554,7 @@
   link: https://acns2026.github.io/
   deadline:
     - "2025-09-25 23:59"
-    - "2026-01-22 23:59"
+    - "2026-01-23 23:59"
   date: June 22-25
   place: New York, NY
   tags: [CRYPTO, SEC, CONF]
@@ -554,7 +576,7 @@
   link: https://www.sacmat.org/2026/
   deadline: 
     - "2025-10-27 23:59"
-    - "2026-03-02 23:59"
+    - "2026-03-06 23:59"
   date: July 8-10
   place: Waterloo, Canada
   tags: [CRYPTO, SEC, CONF, PRIV]
@@ -752,7 +774,7 @@
   year: 2026
   description: Secure Development Conference
   link: https://conf.researchr.org/home/secdev-2026
-  deadline: ["2026-01-29 23:59"]
+  deadline: ["2026-02-05 23:59"]
   date: "July 5-6"
   place: Montreal, Canada
   tags: [SEC, PRIV, CONF]
@@ -780,6 +802,18 @@
   tags: [SEC, CONF]
 
 # Workshops
+
+- name: TRUST-AI
+  description: Workshop on Trustworthy AI for IoMT (Internet of Medical Things)
+  year: 2026
+  link: https://trustai2026.web.illinois.edu/
+  deadline:
+    - "2026-03-16 23:59"
+  comment: Co-located with IEEE ICHI 2026.
+  date: June 1
+  place: Minneapolis, MN, USA
+  tags: [SEC, PRIV, SHOP]
+
 - name: AIHWS
   description: ACNS Workshop on Artificial Intelligence in Hardware Security
   year: 2026
@@ -794,7 +828,7 @@
   description: International Workshop on Artificial Intelligence and IoT Security
   year: 2026
   link: https://aiots26.github.io/main/
-  deadline: ["2026-01-23 23:59", "2026-03-06 23:59"]
+  deadline: ["2026-01-30 23:59", "2026-03-06 23:59"]
   comment: In conjunction with ACNS 2026
   date: June 22
   place: Stony Brook, NY, USA
@@ -805,7 +839,7 @@
   year: 2026
   link: https://cimss2026.github.io/
   deadline:
-    - "2026-01-24 23:59"
+    - "2026-01-30 23:59"
     - "2026-03-22 23:59"
   comment: In conjunction with ACNS
   date: June 22-25
@@ -935,11 +969,11 @@
 
 - name: NSPW
   description: New Security Paradigms Workshop
-  year: 2025
-  link: https://www.nspw.org/2025/cfp
-  deadline: ["2025-04-25 23:59"]
-  date: August 24 - 27
-  place: Aerzen, Germany
+  year: 2026
+  link: https://www.nspw.org/2026/cfp
+  deadline: ["2026-04-30 23:59"]
+  date: September 27 - 30
+  place: Victoria, Canada
   tags: [SEC, PRIV, SHOP]
 
 - name: CNS
@@ -1072,12 +1106,12 @@
 
 - name: MALIoT
   description: Malicious Software and Hardware in Internet of Things
-  year: 2025
-  link: https://security.ucc.ie/mal-iot2025/
-  deadline: ["2025-03-10 23:59"]
-  comment: Co-located with ACM International Conference on Computing Frontiers 2025.
-  date: May 28
-  place: Cagliari, Italy
+  year: 2026
+  link: https://security.ucc.ie/mal-iot2026/
+  deadline: ["2026-02-13 23:59"]
+  comment: Co-located with ACM International Conference on Computing Frontiers 2026
+  date: May 19
+  place: Catania, Italy
   tags: [SEC, PRIV, CRYPTO, SHOP]
 
 - name: DevSecOpsRO
@@ -1177,7 +1211,7 @@
   link: https://cpss26.github.io/
   comment: Co-located with ACM AsiaCCS
   deadline:
-    - "2026-01-24 23:59"
+    - "2026-01-31 23:59"
   date: June 2
   place: Bangalore, India
   tags: [SEC, PRIV, SHOP]
@@ -1253,11 +1287,13 @@
 
 - name: SmartSP
   description: EAI International Conference on Security and Privacy in Cyber-Physical Systems and Smart Vehicles
-  year: 2025
-  link: https://smartsp.eai-conferences.org/2025/
-  deadline: ["2025-07-31 23:59"]
-  date: December 1-2
-  place: Salt Lake City, USA
+  year: 2026
+  link: https://smartsp.eai-conferences.org/
+  deadline:
+    - "2026-05-01 23:59"
+    - "2026-07-16 23:59"
+  date: November 5–6
+  place: Detroit, MI, USA
   tags: [SEC, PRIV, CONF]
 
 - name: CCSW
@@ -1321,13 +1357,13 @@
   tags: [SEC, PRIV, SHOP]
 
 - name: VehicleSec
-  description: Symposium on Vehicle Security and Privacy
-  year: 2025
-  link: https://www.usenix.org/conference/vehiclesec25/call-for-papers
-  deadline: ["2025-03-06 23:59"]
-  comment: Co-located with USENIX Security 2025
-  date: August 11-12
-  place: Seattle, WA, USA
+  description: USENIX Symposium on Vehicle Security and Privacy
+  year: 2026
+  link: https://www.usenix.org/conference/vehiclesec26
+  comment: Co-located with USENIX Security 2026
+  deadline: ["2026-02-24 23:59"]
+  date: August 10-11
+  place: Baltimore, USA
   tags: [SEC, PRIV, CONF]
 
 - name: WEIS
@@ -1344,7 +1380,7 @@
   year: 2026
   comment: Co-Located with IEEE European Symposium on Security and Privacy (EuroS&P).
   link: https://st.fbk.eu/events/SeRIM2026/
-  deadline: ["2026-03-01 23:59"]
+  deadline: ["2026-03-10 23:59"]
   date: July 10
   place: Lisbon, Portugal
   tags: [SEC, PRIV, SHOP]
@@ -1360,12 +1396,12 @@
 
 - name: ACM SaT-CPS
   description: ACM Workshop on Secure and Trustworthy Cyber Physical Systems
-  year: 2025
+  year: 2026
   comment: Co-Located with ACM Conference on Data and Application Security and Privacy (CODASPY).
-  link: https://sites.google.com/view/sat-cps-2025
-  deadline: ["2025-03-02 23:59"]
-  date: June 6
-  place: Pittsburgh, Pennsylvania, USA
+  link: https://sites.google.com/view/sat-cps2026/
+  deadline: ["2026-03-10 23:59"]
+  date: June 25
+  place: Frankfurt, Germany
   tags: [SEC, PRIV, SHOP]
 
 - name: APKC
@@ -1532,6 +1568,45 @@
   place: Canterbury, UK
   tags: [SEC, SHOP]
 
+- name: TDI
+  description: International Workshop on Trends in Digital Identity
+  year: 2026
+  link: https://st.fbk.eu/events/TDI2026/
+  deadline: ["2026-02-22 23:59"]
+  date: April 20-21
+  place: Verona, Italy
+  tags: [SEC, PRIV, SHOP]
+
+- name: Data4SoftSec
+  description: The 1st Workshop on Datasets for Software Security
+  year: 2026
+  link: https://data4softsec26.ieee-security.org
+  comment: Co-located with IEEE S&P 2026
+  deadline: ["2026-02-20 23:59"]
+  timezone: UTC
+  date: May 21, 2026
+  place: San Francisco, California, USA
+  tags: [SEC, PRIV, SHOP]
+
+- name: SecCPS
+  description: Workshop on Cybersecurity of Digital Twins and Interconnected Cyber Physical Systems
+  year: 2026
+  link: https://seccps.github.io/
+  deadline: ["2026-01-31 23:59"]
+  comment: Co-located with IEEE ICC 2026
+  date: May 24-28
+  place: Glasgow, UK
+  tags: [SEC, PRIV, SHOP]
+
+- name: MetaCRiSP
+  description: Workshop on Metascience and Critical Reflections in Security & Privacy
+  year: 2026
+  link: https://metacrisp.org
+  deadline: ["2026-02-19 23:59"]
+  comment: Co-located with IEEE S&P 2026
+  date: May 21, 2026
+  place: San Francisco, California, USA
+  tags: [SEC, PRIV, SHOP]
 
 
 # Usable Security and HCI
@@ -1567,3 +1642,5 @@
   date: October 12-16
   place: Espoo, Finland
   tags: [USEC, CONF]
+
+
