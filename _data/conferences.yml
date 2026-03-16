@@ -263,7 +263,7 @@
   comment: Abstract registration required (May 20 AoE).
   date: September 2-3
   place: Belval, Luxembourg
-  tags: [SEC, PRIV, CONF]
+  tags: [SEC, PRIV, CONF, USEC]
 
 - name: IFIP SEC
   description: IFIP International Information Security and Privacy Conference
