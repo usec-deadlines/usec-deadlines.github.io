@@ -1,3 +1,39 @@
+# Usable Security and HCI
+
+- name: CHI
+  description: ACM CHI Conference on Human Factors in Computing Systems
+  year: 2026
+  link: https://chi2026.acm.org/
+  deadline: ["2025-09-11 23:59"]
+  comment: Title and abstract deadline on September 4
+  date: "April 13-17"
+  place: Barcelona, Spain
+  tags: [USEC, CONF]
+
+- name: CSCW
+  description: ACM Conference on Computer-Supported Cooperative Work and Social Computing
+  year: 2026
+  link: https://cscw.acm.org/2026/
+  deadline:
+    - "2025-05-13 23:59"
+  date: "October/November 2026"
+  place: TBA
+  tags: [USEC, CONF]
+
+- name: IMWUT / UbiComp
+  description: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
+  year: 2025
+  link: https://dl.acm.org/journal/imwut
+  deadline:
+    - "2025-02-01 23:59"
+    - "2025-05-01 23:59"
+    - "2025-11-01 23:59"
+  date: October 12-16
+  place: Espoo, Finland
+  tags: [USEC, CONF]
+
+
+
 # Security and Privacy
 
 - name: S&P (Oakland)
@@ -1828,39 +1864,4 @@
   date: August 10-14
   place: Leuven, Belgium
   tags: [PRIV, SHOP]
-
-
-# Usable Security and HCI
-
-- name: CHI
-  description: ACM CHI Conference on Human Factors in Computing Systems
-  year: 2026
-  link: https://chi2026.acm.org/
-  deadline: ["2025-09-11 23:59"]
-  comment: Title and abstract deadline on September 4
-  date: "April 13-17"
-  place: Barcelona, Spain
-  tags: [USEC, CONF]
-
-- name: CSCW
-  description: ACM Conference on Computer-Supported Cooperative Work and Social Computing
-  year: 2026
-  link: https://cscw.acm.org/2026/
-  deadline:
-    - "2025-05-13 23:59"
-  date: "October/November 2026"
-  place: TBA
-  tags: [USEC, CONF]
-
-- name: IMWUT / UbiComp
-  description: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
-  year: 2025
-  link: https://dl.acm.org/journal/imwut
-  deadline:
-    - "2025-02-01 23:59"
-    - "2025-05-01 23:59"
-    - "2025-11-01 23:59"
-  date: October 12-16
-  place: Espoo, Finland
-  tags: [USEC, CONF]
 
