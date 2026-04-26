@@ -132,6 +132,13 @@ $(function() {
   var tags = store.get('{{ site.domain }}');
   if (!Array.isArray(tags)) {
     tags = [];
+    [filter1, filter2, filter3].forEach(function(group) {
+      group.forEach(function(item) {
+        if (item.default) {
+          tags.push(item.tag);
+        }
+      });
+    });
   }
 
   for (var i = 0; i < all_tags.length; i++) {

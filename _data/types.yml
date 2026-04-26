@@ -1,10 +1,11 @@
 ---
+- name: Usable Security
+  tag: USEC
+  default: true
 - name: Security
   tag: SEC
-  default: false
 - name: Privacy
   tag: PRIV
-  default: false
 - name: Crypto
   tag: CRYPTO
 - name: Security Top-4
@@ -21,13 +22,7 @@
   tag: OTHERS
 - name: Conference
   tag: CONF
-  default: false
 - name: Workshop
   tag: SHOP
-  default: false
 - name: Journal
   tag: JRN
-
-- name: Usable security
-  tag: USEC
-  default: true

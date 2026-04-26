@@ -1,4 +1,7 @@
 filter1:
+  - name: Usable security
+    tag: USEC
+    default: true
   - name: Security
     tag: SEC
   - name: Privacy
