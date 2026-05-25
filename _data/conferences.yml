@@ -37,16 +37,16 @@
 # Security and Privacy
 
 - name: S&P (Oakland)
-  year: 2026
-  date: May 18-21
+  year: 2027
+  date: TBA
   description: IEEE Symposium on Security and Privacy
-  link: https://sp2026.ieee-security.org/
+  link: https://sp2027.ieee-security.org/
   dblp: https://dblp.org/db/conf/sp/index.html
   deadline:
-    - "2025-06-05 23:59"
-    - "2025-11-13 23:59"
+    - "2026-06-11 23:59"
+    - "2026-11-17 23:59"
   comment: Abstract registration required (1 week before deadline AoE).
-  place: San Francisco, California, USA
+  place: Montreal, Canada
   tags: [SEC, PRIV, CONF, ASTAR, TOP4, USEC]
 
 - name: CCS
@@ -83,8 +83,8 @@
   deadline:
     - "2026-05-06 23:59"
     - "2026-08-19 23:59"
-  date: "TBD"
-  place: TBD
+  date: "March 22-26"
+  place: Seoul, Republic of Korea
   tags: [SEC, PRIV, CONF, ASTAR, TOP4]
 
 - name: ESORICS
@@ -99,7 +99,7 @@
   place: Rome, Italy
   tags: [SEC, PRIV, CONF, CORE-A]
 
-- name: AsiaCCS
+- name: ASIA CCS
   description: ACM Asia Conference on Computer and Communications Security
   year: 2027
   link: https://asiaccs2027.cityu.edu.mo/home/index.html
@@ -225,7 +225,7 @@
 - name: PETS
   description: Privacy Enhancing Technologies Symposium
   year: 2027
-  link: https://www.petsymposium.org/cfp26.php
+  link: https://www.petsymposium.org/cfp27.php
   dblp: https://dblp.org/db/conf/pet/index.html
   deadline:
     - "%Y-05-31 23:59"
@@ -233,8 +233,8 @@
     - "%Y-11-30 23:59"
     - "%y-02-28 23:59"
   comment: Rolling deadline every quarter
-  date: TBD
-  place: TBD
+  date: TBA
+  place: TBA (Europe)
   tags: [PRIV, CONF, CORE-A, USEC]
 
 - name: SOUPS
@@ -366,12 +366,12 @@
 
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
-  year: 2026
-  link: https://pkc.iacr.org/2026/
+  year: 2027
+  link: https://pkc.iacr.org/2027/
   dblp: https://dblp.org/db/conf/pkc/index.html
-  deadline: ["2025-10-24 09:59"]
-  date: May 25-28
-  place: West Palm Beach, FL, USA
+  deadline: ["2026-08-03 23:59"]
+  date: March 1-4
+  place: Taipei, Taiwan
   tags: [CRYPTO, CONF, CORE-B]
 
 - name: CT-RSA
@@ -435,7 +435,7 @@
 
 - name: CHES
   description: IACR Transactions on Cryptographic Hardware and Embedded Systems
-  year: 2026
+  year: 2027
   link: https://ches.iacr.org/2026/
   dblp: https://dblp.org/db/journals/tches/index.html
   deadline:
@@ -444,8 +444,8 @@
     - "%y-01-15 23:59"
     - "%y-04-15 23:59"
   comment: Rolling deadline every quarter
-  date: October 11-15
-  place: Antalya, Türkiye
+  date: TBD
+  place: TBD
   tags: [CRYPTO, CONF, JRN, CORE-A]
 
 - name: C&C
@@ -824,7 +824,7 @@
   description: International Conference on Design of Cyber-Secure Critical Infrastructure 
   year: 2026
   link: https://dcs-ci.github.io
-  deadline: ["2026-04-13 23:59"]
+  deadline: ["2026-05-04 23:59"]
   date: Sep 2-3, 2026
   place: Buford, Georgia, USA
   tags: [SEC, CONF, OTHERS]
@@ -920,6 +920,17 @@
 
 # Workshops
 
+- name: ANUBIS
+  description: Assessment with New methodologies, Unified Benchmarks, and environments, of Intrusion detection and response Systems
+  year: 2026
+  link: https://superviz.inria.fr/anubis26/
+  deadline:
+    - "2026-06-12 23:59"
+  comment: Co-located with ESORICS 2026.
+  date: September 14-18
+  place: Rome, Italy
+  tags: [SEC, PRIV, SHOP, OTHERS]
+
 - name: TRUST-AI
   description: Workshop on Trustworthy AI for IoMT (Internet of Medical Things)
   year: 2026
@@ -929,7 +940,7 @@
   comment: Co-located with IEEE ICHI 2026.
   date: June 1
   place: Minneapolis, MN, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: AIHWS
   description: ACNS Workshop on Artificial Intelligence in Hardware Security
@@ -939,7 +950,7 @@
   comment: In conjunction with ACNS 2026
   date: June 25
   place: Stony Brook, New York, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: AIoTS
   description: International Workshop on Artificial Intelligence and IoT Security
@@ -949,7 +960,7 @@
   comment: In conjunction with ACNS 2026
   date: June 22
   place: Stony Brook, NY, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: CIMSS
   description: International Workshop on Critical Infrastructure and Maritime Systems Security
@@ -961,7 +972,7 @@
   comment: In conjunction with ACNS
   date: June 22-25
   place: Stony Brook University, NY, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: ACNS-ISC
   description: ACNS Workshop on Intelligent and Secure Computing
@@ -971,7 +982,7 @@
   comment: In conjunction with ACNS 2026
   date: June 2026
   place: Stony Brook University, NY, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: SCI
   description: ACNS Workshop on Secure Cryptographic Implementation
@@ -981,7 +992,7 @@
   comment: In conjunction with ACNS 2025
   date: June 24
   place: Munich, Germany
-  tags: [CRYPTO, SHOP]
+  tags: [CRYPTO, SHOP, OTHERS]
 
 - name: SiMLA
   description: International Workshop on Security in Machine Learning and its Applications 
@@ -992,17 +1003,17 @@
   comment: In conjunction with ACNS
   date: June 22-25
   place: Stony Brook University, NY, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: CPSIoTSec
   description: The Joint Workshop on CPS & IoT Security and Privacy
-  year: 2025
-  link: https://cpsiotsec2025.github.io/
-  deadline: ["2025-06-20 23:59"]
-  comment: In conjunction with ACM CCS 2025
-  date: October 17
-  place: Taipei, Taiwan
-  tags: [SEC, PRIV, SHOP]
+  year: 2026
+  link: https://cpsiotsec2026.github.io/
+  deadline: ["2026-06-30 23:59"]
+  comment: In conjunction with ACM CCS 2026
+  date: November 15-19
+  place: The Hague, The Netherlands
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: AISec
   description: Workshop on Artificial Intelligence and Security
@@ -1012,7 +1023,7 @@
   date: October 17, 2025
   comment: Co-located with ACM CCS 2025
   place: Taipei, Taiwan
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: EnergySP
   description: ACM SIGEnergy Workshop on Cybersecurity and Privacy of Energy Systems
@@ -1022,7 +1033,7 @@
   comment: In conjunction with ACM eEnergy 2026
   date: June 22
   place: Banff, Canada
-  tags: [SEC, SHOP, PRIV]
+  tags: [SEC, SHOP, OTHERS, PRIV]
 
 - name: WoRMA
   description: Workshop on Rethinking Malware Analysis
@@ -1032,7 +1043,7 @@
   date: June 30
   comment: Co-located with IEEE Euro S&P
   place: Venice, Italy
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: SysTEX
   description: Workshop on System Software for Trusted Execution
@@ -1042,7 +1053,7 @@
   date: April 27
   comment: Co-located with EuroSys 2026
   place: Edinburgh, Scotland
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: ICSS
   description: Industrial Control System Security Workshop
@@ -1052,7 +1063,7 @@
   comment: In conjunction with ACSAC
   date: December 10
   place: Waikiki, Hawaii, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: WEB3SEC
   description: Workshop Encouraging Building Better Blockchain Security
@@ -1062,7 +1073,7 @@
   comment: In conjunction with ACSAC
   date: December 9
   place: Waikiki, Hawaii, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: ARTMAN
   description: Workshop on Recent Advances in Resilient and Trustworthy MAchine learning-driveN system
@@ -1072,7 +1083,7 @@
   comment: In conjunction with CCS
   date: October 17
   place: Taipei, Taiwan
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: WPES
   description: Workshop on Privacy in the Electronic Society
@@ -1082,7 +1093,7 @@
   comment: In conjunction with ACM CCS
   date: October 13
   place: Taipei, Taiwan
-  tags: [PRIV, SHOP]
+  tags: [PRIV, SHOP, OTHERS]
 
 - name: NSPW
   description: New Security Paradigms Workshop
@@ -1091,13 +1102,13 @@
   deadline: ["2026-04-30 23:59"]
   date: September 27 - 30
   place: Victoria, Canada
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: CNS
   description: IEEE Conference on Communications and Network Security
   year: 2026
   link: https://cns2026.ieee-cns.org/
-  deadline: ["2026-05-11 23:59"]
+  deadline: ["2026-05-18 23:59"]
   date: September 14 - 17
   place: Newark, DE, USA
   tags: [SEC, PRIV, CONF]
@@ -1110,7 +1121,7 @@
   comment: Co-located with MICRO 2025
   date: October 18
   place: Seoul, Korea
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: PAVeTrust
   description: Program Analysis and Verification on Trusted Platforms
@@ -1120,7 +1131,7 @@
   deadline: ["2024-07-05 23:59"]
   date: September 9
   place: Milan, Italy
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: SpaceSec
   description: Workshop on the Security of Space and Satellite Systems
@@ -1131,7 +1142,7 @@
     - "2025-11-16 23:59"
   date: February 23
   place: San Diego, California, USA
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: MADWeb
   description: Workshop on Measurements, Attacks, and Defenses for the Web
@@ -1142,7 +1153,7 @@
     - "2025-12-11 23:59"
   date: February 27
   place: San Diego, California, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: SDIoTSec
   description: Workshop on Security and Privacy in Standardized IoT
@@ -1153,7 +1164,7 @@
     - "2025-12-10 23:59"
   date: February 23
   place: San Diego, California, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: WOSOC
   description: Workshop on SOC Operations and Construction
@@ -1164,7 +1175,7 @@
     - "2025-12-22 23:59"
   date: February 23
   place: San Diego, California, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: LAST-X
   description: Workshop on LLM Assisted Security and Trust Exploration
@@ -1175,7 +1186,7 @@
     - "2025-12-10 23:59"
   date: February 27
   place: San Diego, California, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: USEC
   description: Symposium on Usable Security and Privacy
@@ -1197,7 +1208,7 @@
     - "2025-12-15 23:59"
   date: February 23
   place: San Diego, California, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: WOOT
   description: USENIX WOOT Conference on Offensive Technologies
@@ -1219,7 +1230,7 @@
   comment: Co-located with IEEE S&P 2025
   date: May 15
   place: San Francisco, CA, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: MALIoT
   description: Malicious Software and Hardware in Internet of Things
@@ -1229,7 +1240,7 @@
   comment: Co-located with ACM International Conference on Computing Frontiers 2026
   date: May 19
   place: Catania, Italy
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: DevSecOpsRO
   year: 2025
@@ -1238,7 +1249,7 @@
   link: https://spritz.math.unipd.it/events/2025/devSecOpsRO/
   deadline: ["2025-03-02 23:59"]
   place: Venice, Italy
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: FUZZING
   year: 2026
@@ -1249,7 +1260,7 @@
     - "2025-12-11 23:59"
   place: San Diego, CA, USA
   comment: Co-located with NDSS 2026
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: SECAI
   description: Workshop on Security and Artificial Intelligance
@@ -1259,7 +1270,7 @@
   comment: Co-located with ESORICS 2024
   date: September 16-20
   place: Bydgoszcz, Poland
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: ASHES
   description: Workshop on Attacks and Solutions in Hardware Security
@@ -1270,7 +1281,7 @@
     - "2024-07-18 23:59"
   date: October 18
   place: Salt Lake City, Utah, United States
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: SCORED
   description: ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses
@@ -1280,28 +1291,28 @@
   deadline: ["2024-07-05 23:59"]
   date: October 18
   place: Salt Lake City, Utah, United States
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: DPM
   description: Data Privacy Management International Workshop
-  comment: Co-located with ESORICS 2025
-  year: 2025
-  link: https://deic.uab.cat/dpm/dpm2025/
-  deadline: ["2025-06-30 23:59"]
-  place: Toulouse, France
-  date: September 25
-  tags: [SEC, PRIV, SHOP]
+  comment: Co-located with ESORICS 2026
+  year: 2026
+  link: https://deic.uab.cat/dpm/dpm2026/
+  deadline: ["2026-06-16 23:59"]
+  place: Rome, Italy
+  date: September 26
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: CBT
   description: International Workshop on Cryptocurrencies and Blockchain Technology
-  comment: Co-located with ESORICS 2025
-  year: 2025
+  comment: Co-located with ESORICS 2026
+  year: 2026
   link: http://cbtworkshop.org/
   deadline:
-    - "2025-06-30 23:59"
-  place: Toulouse, France
-  date: September 25
-  tags: [SEC, CRYPTO, SHOP]
+    - "2026-06-17 23:59"
+  place: Rome, Italy
+  date: September 26
+  tags: [SEC, CRYPTO, SHOP, OTHERS]
 
 - name: CyberHunt
   description: Workshop on Cyber Threat Intelligence and Hunting
@@ -1311,7 +1322,7 @@
   comment: Co-located with IEEE BigData 2024
   date: December 15-18
   place: Washington DC, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: ICISS
   description: International Conference on Information Systems Security
@@ -1332,7 +1343,7 @@
     - "2026-01-31 23:59"
   date: June 2
   place: Bangalore, India
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: FL
   description: International Workshop on Secure and Efficient Federated Learning
@@ -1342,7 +1353,7 @@
   deadline: ["2026-02-13 23:59"]
   date: "June 2"
   place: Bangalore, India
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: WACCO
   description: Workshop on Attackers and Cyber-Crime Operations
@@ -1360,7 +1371,7 @@
   deadline: ["2026-06-08 23:59"]
   date: November 24-26
   place: Tokyo, JP
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: CSET
   description: Cyber Security Experimentation and Test Workshop
@@ -1370,7 +1381,7 @@
   deadline: ["2025-09-17 23:59"]
   date: December 8
   place: Honolulu, Hawaii, USA
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: QSNS
   year: 2026
@@ -1380,7 +1391,7 @@
   deadline: ["2026-03-31 23:59"]
   place: Vilamoura, Algarve, Portugal
   date: June 23-26
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: CheckMATE
   description: Research on offensive and defensive techniques in the context of Man At The End (MATE) attacks
@@ -1390,7 +1401,7 @@
   comment: Co-located with ACM CCS 2025
   date: October 17
   place: Taipei, Taiwan
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: CSCS
   description: Cyber Security in Cars Workshop
@@ -1400,14 +1411,14 @@
   comment: Co-located with ACM CCS 2025
   date: October 17
   place: Taipei, Taiwan
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: SmartSP
   description: EAI International Conference on Security and Privacy in Cyber-Physical Systems and Smart Vehicles
   year: 2026
   link: https://smartsp.eai-conferences.org/
   deadline:
-    - "2026-05-01 23:59"
+    - "2026-05-08 23:59"
     - "2026-07-16 23:59"
   date: November 5–6
   place: Detroit, MI, USA
@@ -1421,7 +1432,7 @@
   comment: Co-located with ACM CCS 2025
   date: October 17
   place: Taipei, Taiwan, China
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: PQCrypto
   description: International Conference on Post-Quantum Cryptography
@@ -1441,7 +1452,7 @@
   comment: Co-located with ACSAC 2025
   date: December 8
   place: Waikiki, Hawaii, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: TAC
   description: Topics in Applied Cryptography
@@ -1451,7 +1462,7 @@
   deadline: ["2024-07-29 23:59"]
   comment: Co-located with CIFRIS. Paper registration due Jul 25 AoE
   place: Rome, Italy
-  tags: [SEC, CRYPTO, SHOP]
+  tags: [SEC, CRYPTO, SHOP, OTHERS]
 
 - name: FutureG
   description: Workshop on Security and Privacy of Next-Generation Networks
@@ -1461,7 +1472,7 @@
   comment: Co-located with NDSS Symposium
   date: February 23
   place: San Diego, California, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: CloudResIOT
   description: International Workshop on Cloud Resilience for the Internet of Things
@@ -1471,7 +1482,7 @@
   comment: Co-located with ICCCN 2025.
   date: August 4-7
   place: Tokyo, Japan
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: WEIS
   description: Workshop on the Economics of Information Security
@@ -1480,7 +1491,7 @@
   deadline: ["2025-01-31 23:59"]
   date: June 23-25
   place: Tokyo, Japan
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: SeRIM
   description: International Workshop on Security and Risk in Identity Management
@@ -1490,7 +1501,7 @@
   deadline: ["2026-03-10 23:59"]
   date: July 10
   place: Lisbon, Portugal
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: Crypto Valley Conference
   description: Crypto Valley Conference on Blockchain Technology 2025
@@ -1509,7 +1520,7 @@
   deadline: ["2026-03-10 23:59"]
   date: June 25
   place: Frankfurt, Germany
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: APKC
   description: ACM ASIA Public-Key Cryptography Workshop
@@ -1519,7 +1530,7 @@
   deadline: ["2026-01-20 23:59"]
   date: June 2 
   place: Bangalore, India
-  tags: [SEC, CRYPTO, SHOP]
+  tags: [SEC, CRYPTO, SHOP, OTHERS]
 
 - name: MIST
   description: Workshop on Mobile and IoT Security Technologies
@@ -1529,7 +1540,7 @@
   comment: Co-located with ESORICS 2026
   date: September 14-18
   place: Rome, Italy
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: uASC
   description: Microarchitecture Security Conference
@@ -1544,14 +1555,14 @@
 
 - name: HS3
   description: Workshop on Hardware-Supported Software Security
-  year: 2025
-  link: https://hs3-workshop.github.io/
+  year: 2026
+  link: https://hs3-workshop.github.io/2026.html
   deadline:
-    - "2025-06-13 23:59"
-  comment: Co-located with ESORICS 25.
-  date: September 25
-  place: Toulouse, France
-  tags: [SEC, PRIV, SHOP]
+    - "2026-06-19 23:59"
+  comment: Co-located with ESORICS 26.
+  date: September 14
+  place: Rome, Italy
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: CPS-Sec
   description: 10th IEEE International Workshop on Cyber-Physical Systems Security
@@ -1562,28 +1573,28 @@
   comment: In conjunction with IEEE CNS
   date: September 11
   place: Avignon, France
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: OPTIMIST
   description: Workshop on Open Tools, Interfaces and Metrics for Implementation Security Testing
-  year: 2025
-  link: https://optimist-ose.org/ches25
+  year: 2026
+  link: https://optimist-ose.org/ches26
   deadline:
-    - "2025-07-14 23:59"
-  comment: Co-located with CHES 25.
-  date: September 14
-  place: Kuala Lumpur, Malaysia
-  tags: [CRYPTO, SEC, SHOP]
+    - "2026-06-21 23:59"
+  comment: Co-located with CHES 26.
+  date: October 11
+  place: Antalya, Türkiye
+  tags: [CRYPTO, SEC, SHOP, OTHERS]
 
 - name: HAIPS
-  description: Workshop on Human-Centered AI Privacy and Security
-  year: 2025
+  description: Workshop on Human-Centered Privacy and Security for Language Models
+  year: 2026
   link: https://haips.com
-  deadline: ["2025-06-20 23:59"]
-  comment: Co-located with ACM CCS 2025
-  date: October 17
-  place: Taipei, Taiwan
-  tags: [SEC, PRIV, SHOP, USEC]
+  deadline: ["2026-06-23 23:59"]
+  comment: Co-located with COLM 2026
+  date: October 9
+  place: San Francisco, CA, USA
+  tags: [SEC, PRIV, SHOP, OTHERS, USEC]
 
 - name: RICSS
   description: Workshop on Re-design Industrial Control Systems with Security
@@ -1593,7 +1604,7 @@
   comment: Co-located with ACM CCS 2025
   date: October 13
   place: Taipei, Taiwan
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: B4TI
   description: Workshop on Blockchain for Decentralized Trust and Digital Identity
@@ -1603,7 +1614,7 @@
   comment: Co-located with BCCA 2025
   date: October 14-17
   place: Dubrovnik, Croatia
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: SURE
   description: Workshop on Software Understanding and Reverse Engineering
@@ -1613,7 +1624,7 @@
   comment: Co-located with ACM CCS 2025
   date: October 13
   place: Taipei, Taiwan
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: WICON
   description: EAI International Conference on Wireless Internet
@@ -1641,7 +1652,7 @@
   comment: Co-located with ACM EuroSys 2026
   date: April 27
   place: Edinburgh, UK
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: NextG-Sec
   description: NextG Networks Cryptography and Security (NextG-Sec) 
@@ -1651,7 +1662,7 @@
   comment: Co-located with ACNS 2026
   date: June 23-26
   place: Stony Brook, New York, USA
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: MAgiCS
   description: Workshop on Migration and Agility in Cryptographic Systems
@@ -1662,7 +1673,7 @@
   timezone: UTC
   date: May 10
   place: Rome, Italy
-  tags: [SEC, CRYPTO, SHOP]
+  tags: [SEC, CRYPTO, SHOP, OTHERS]
 
 - name: AI-SS
   description: International Workshop on AI Safety and Security
@@ -1673,7 +1684,7 @@
   timezone: UTC
   date: April 7
   place: Canterbury, UK
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: TDI
   description: International Workshop on Trends in Digital Identity
@@ -1682,7 +1693,7 @@
   deadline: ["2026-02-22 23:59"]
   date: April 20-21
   place: Verona, Italy
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: Data4SoftSec
   description: The 1st Workshop on Datasets for Software Security
@@ -1693,7 +1704,7 @@
   timezone: UTC
   date: May 21, 2026
   place: San Francisco, California, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: SecCPS
   description: Workshop on Cybersecurity of Digital Twins and Interconnected Cyber Physical Systems
@@ -1703,7 +1714,7 @@
   comment: Co-located with IEEE ICC 2026
   date: May 24-28
   place: Glasgow, UK
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: MetaCRiSP
   description: Workshop on Metascience and Critical Reflections in Security & Privacy
@@ -1713,7 +1724,7 @@
   comment: Co-located with IEEE S&P 2026
   date: May 21, 2026
   place: San Francisco, California, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: ACSW
   description: Workshop on Automotive Cyber-Security
@@ -1723,7 +1734,7 @@
   deadline: ["2026-3-12 23:59"]
   date: July 10
   place: Lisbon, Portugal
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: OSVS
   description: Workshop on Operating Systems and Virtualization Security
@@ -1733,7 +1744,7 @@
   date: July 04
   comment: Co-located with IEEE Euro S&P
   place: Venice, Italy
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: IMPACT
   description: Workshop on Innovation in Metadata Privacy---Analysis and Construction Techniques
@@ -1743,7 +1754,7 @@
   comment: Co-located with NDSS Symposium
   date: February 28
   place: San Diego, California, USA
-  tags: [PRIV, SEC, CRYPTO, SHOP]
+  tags: [PRIV, SEC, CRYPTO, SHOP, OTHERS]
 
 
 - name: EDId
@@ -1754,7 +1765,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: WSDF
   description: International Workshop on Digital Forensics
@@ -1764,7 +1775,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: SAFE-EDGE
   description: Workshop on Security, Availability, and Fault-Tolerance in Edge AI Systems
@@ -1774,7 +1785,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: IWSMA
   description: International Workshop on Security of Mobile Applications
@@ -1784,7 +1795,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: QCLLM
   description: Workshop on Quantum Computing for Securing Large Language Models
@@ -1794,7 +1805,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: ASOD
   description: Workshop on Advances in Secure Software Deployments
@@ -1804,7 +1815,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: "AI&CCPS"
   description: International Workshop on Artificial Intelligence, Cyber and Cyber-Physical Security
@@ -1814,7 +1825,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: CPRA
   description: International Workshop on Cybersecurity and Privacy Risk Assessments
@@ -1824,7 +1835,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: CSA
   description: Workshop on Recent Advances in Cyber Situational Awareness and Data-Centric Approaches
@@ -1834,7 +1845,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: CUING
   description: International Workshop on Cyber Use of Information Hiding
@@ -1844,17 +1855,17 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: CyResTrust
   description: International Workshop on Applied Trust and Cyber Resilience
   year: 2026
   link: https://www.ares-conference.eu/cyrestrust
-  deadline: ["2026-05-04 23:59"]
+  deadline: ["2026-05-18 23:59"]
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, CRYPTO, SHOP]
+  tags: [SEC, CRYPTO, SHOP, OTHERS]
 
 - name: GRASEC
   description: International Workshop on Graph-based Approaches for CyberSecurity
@@ -1864,7 +1875,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: IWCC
   description: International Workshop on Cyber Crime
@@ -1874,7 +1885,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
 
 - name: PQ-ReadySec
   description: International Workshop on Post-Quantum Cybersecurity Readiness and Migration
@@ -1884,7 +1895,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, CRYPTO, SHOP]
+  tags: [SEC, CRYPTO, SHOP, OTHERS]
 
 - name: RDGPT
   description: International Workshop on Responsible Data Governance, Privacy, and Digital Transformation
@@ -1894,17 +1905,17 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: SAFER
   description: Workshop on Sustainable Security And Awareness For Next Generation Infrastructures
   year: 2026
   link: https://www.ares-conference.eu/safer
-  deadline: ["2026-05-04 23:59"]
+  deadline: ["2026-05-18 23:59"]
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: SCCS
   description: International Workshop on Supply Chain Cyber Security
@@ -1914,7 +1925,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: SecHealth
   description: Workshop on Cybersecurity in Healthcare Operations
@@ -1924,7 +1935,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: Secdustry
   description: Workshop on Cybersecurity in Industry 4.0 and Beyond
@@ -1934,7 +1945,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: TrustBus
   description: International Workshop on Trust, Privacy and Security in the Digital Society
@@ -1944,7 +1955,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: SIA
   description: Workshop on Security in Aviation
@@ -1954,7 +1965,7 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: SPETViD
   description: International Workshop on Security and/or Privacy Enhancing Technologies for Multimodal Data
@@ -1964,7 +1975,17 @@
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, CRYPTO, SHOP]
+  tags: [SEC, PRIV, CRYPTO, SHOP, OTHERS]
+
+- name: AgentCy
+  description: "Workshop on Agentic AI for Cybersecurity: Offensive and Defensive Perspectives"
+  year: 2026
+  link: https://www.ares-conference.eu/agentcy
+  deadline: ["2026-05-18 23:59"]
+  comment: Co-located with ARES
+  date: August 24-27
+  place: Linköping, SE
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: SAFE-ML
   description: International Workshop on Secure, Accountable, and Verifiable Machine Learning
@@ -1974,7 +1995,7 @@
   deadline: ["2026-02-27 23:59"]
   date: May 18 - 22
   place: Daejeon, South Korea
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: LightSEC
   description: International Workshop on Lightweight Cryptography for Security and Privacy
@@ -1983,7 +2004,7 @@
   link: https://www.encrypt-on.com/activities/conferences/lightsec-2025/
   deadline: ["2025-04-18 23:59"]
   place: Istanbul, Turkiye
-  tags: [SEC, PRIV, SHOP, CRYPTO]
+  tags: [SEC, PRIV, SHOP, OTHERS, CRYPTO]
 
 - name: IFIP WNDSS
   description: IFIP International Workshop on Network and Distributed Systems Security
@@ -1992,7 +2013,7 @@
   deadline: ["2025-01-31 23:59"]
   date: May 23
   place: Maribor, Slovenia
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
 
 - name: Sensors S&P
   description: International Workshop on Security and Privacy of Sensing Systems
@@ -2002,7 +2023,7 @@
   date: May 6
   comment: Co-located with Sensys at Cyber-Physical Systems and Internet-of-Things Week
   place: Irvine, USA
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
 
 - name: PLAS
   year: 2025
@@ -2012,7 +2033,7 @@
   deadline: ["2025-07-04 23:59"]
   date: October 13
   place: Taipei, Taiwan
-  tags: [SEC, PRIV, SHOP]
+  tags: [SEC, PRIV, SHOP, OTHERS]
   
 - name: IFIPSC
   description: IFIP Summer School on Privacy and Identity Management
@@ -2022,7 +2043,7 @@
   deadline: ["2026-04-30 23:59"]
   date: August 10-14
   place: Leuven, Belgium
-  tags: [PRIV, SHOP]
+  tags: [PRIV, SHOP, OTHERS]
   
 - name: ADND
   description: Workshop on Active Defense and Deception
@@ -2032,4 +2053,33 @@
   date: September 18
   comment: Co-located with ESORICS 2026
   place: Rome, Italy
-  tags: [SEC, SHOP]
+  tags: [SEC, SHOP, OTHERS]
+
+- name: XR Security
+  description: Workshop on Enhancing Security, Privacy, and Trust in Extended Reality (XR) Systems
+  year: 2026
+  link: https://xrsecurity.github.io/2026/
+  comment: Co-located with MobiCom
+  deadline: ["2026-06-05 23:59"]
+  date: October 30
+  place: Austin, USA
+  tags: [SEC, PRIV, SHOP, ]
+
+- name: WIFS
+  description: IEEE International Workshop on Information Forensics and Security 
+  year: 2026
+  link: https://wifs2026.utt.fr/
+  deadline: ["2026-07-15 23:59"]
+  date: December 7-11
+  place: Sendai, Japan
+  tags: [SEC, PRIV, SHOP, OTHERS]
+
+- name: TAKEDOWN
+  description: ACM Technical Analysis and Knowledge Exchange on Disrupting Online Criminal Networks
+  year: 2026
+  link: https://takedown-workshop.com/
+  deadline: ["2026-07-13 23:59"]
+  date: December 7-11
+  place: The Hague, The Netherlands
+  tags: [SEC, SHOP, OTHERS]
+  comment: Co-located with CCS 2026
