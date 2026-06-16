@@ -246,7 +246,7 @@
   comment: Abstract registration required (1 week before deadline AoE).
   date: August 23-26
   place: Hannover, Germany
-  tags: [SEC, PRIV, CONF, CORE-A]
+  tags: [SEC, PRIV, CONF, CORE-A, USEC]
 
 - name: EuroUSEC
   description: European Symposium on Usable Security
@@ -257,7 +257,7 @@
   comment: Paper registration due May 5th AoE
   date: September 10-September 11
   place: Manchester, UK
-  tags: [SEC, PRIV, CONF, OTHERS]
+  tags: [SEC, PRIV, CONF, OTHERS, USEC]
   
 - name: PrivaCI
   description: The Annual Symposium on Applications of Contextual Integrity
@@ -837,7 +837,7 @@
   comment: Abstract registration required (May 20 AoE).
   date: September 2-3
   place: Belval, Luxembourg
-  tags: [SEC, PRIV, CONF, OTHERS]
+  tags: [SEC, PRIV, CONF, OTHERS, USEC]
 
 - name: ACISP
   description: Australasian Conference on Information Security and Privacy
