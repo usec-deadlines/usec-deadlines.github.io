@@ -2,13 +2,12 @@
 
 - name: CHI
   description: ACM CHI Conference on Human Factors in Computing Systems
-  year: 2026
-  link: https://chi2026.acm.org/
-  deadline: ["2025-09-11 23:59"]
-  comment: Title and abstract deadline on September 4
-  date: "April 13-17"
-  place: Barcelona, Spain
-  tags: [USEC, CONF]
+  year: 2027
+  link: https://chi2027.acm.org/
+  deadline: ["2027-09-10 23:59"]
+  date: "May 10-14"
+  place: Pittsburgh, PA, USA
+  tags: [USEC, CONF, ASTAR]
 
 - name: CSCW
   description: ACM Conference on Computer-Supported Cooperative Work and Social Computing
@@ -18,19 +17,19 @@
     - "2025-05-13 23:59"
   date: "October/November 2026"
   place: TBA
-  tags: [USEC, CONF]
+  tags: [USEC, CONF, CORE-A]
 
-- name: IMWUT / UbiComp
+- name: IMWUT / UbiComp / ISWC
   description: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
-  year: 2025
+  year: 2026
   link: https://dl.acm.org/journal/imwut
   deadline:
-    - "2025-02-01 23:59"
-    - "2025-05-01 23:59"
-    - "2025-11-01 23:59"
-  date: October 12-16
-  place: Espoo, Finland
-  tags: [USEC, CONF]
+    - "2026-02-01 23:59"
+    - "2026-05-01 23:59"
+    - "2026-11-01 23:59"
+  date: October 13-15
+  place: Shanghai, China
+  tags: [USEC, CONF, ASTAR]
 
 
 
